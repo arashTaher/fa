@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>گفتی NRefactory چی بود ؟</title>
+   <meta name="author" content="Arash Taher" />
+   <!-- <link href="http://feeds.feedburner.com/tom-preston-werner" rel="alternate" title="Tom Preston-Werner" type="application/atom+xml" /> -->
+
+   <!-- syntax highlighting CSS -->
+   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+</head>
+<body>
+
+<div class="site" dir="ltr">
+  <div class="title">
+    <a href="http://arashTaher.ir">Arash Taher</a>
+    <a href="http://fa.arashTaher.ir" class="extra">Fa</a>
+    <a href="http://en.arashTaher.ir" class="extra">En</a>
+  </div>
+  
+  <h1>گفتی NRefactory چی بود ؟</h1>
+
+<div id="post">
+	<p>همانطور که در <a href="http://arashthr.wordpress.com/2013/09/22/nrefactory/">پست قبل</a> هم به آن اشاره شد <a href="https://github.com/icsharpcode/NRefactory">NRefactory</a> یکی‌ از پروژه‌های جانبی <a href="http://laputa.sharpdevelop.net/">SherpDevelop</a> می‌باشد. SharpDevelop در کنار پروژه دیگری موسوم به <a href="http://monodevelop.com/">MonoDevelop</a> دو مورد از جایگزین‌های Open source برای Visual Studio محسوب میشوند که از پارسر Mono برای پارس و کامپایل کردن کد‌های سی‌ شارپ استفاده می‌کند.</p>
+
+<p>استفاده از این کتابخانه در محیط این IDE بسیار متنوع بوده، برای مثال می‌توان از استفاده‌های این کتابخانه برای ایجاد قابلیت <a href="http://en.wikipedia.org/wiki/Intellisense">IntelliSense</a> ( تشخیص و تکمیل و تصحیح سینتکس ) و یا <a href="http://en.wikipedia.org/wiki/Prettyprint">PrettyPrint</a> و Reformat کردن کد را نام برد.</p>
+
+<h2>NRefactory ، پارسری برای سی‌ شارپ :</h2>
+
+<p>****از نظر تکنیکی‌ کتابخانه NRefactory یک Front-end parser برای سی‌ شارپ محسوب میشود. این کتابخانه با پارس کردن کد‌های یک برنامه به زبان سی‌ شارپ و یا ویژوال بیسیک، Abstract Syntax Tree مرتبط با آن کد را در اختیار ما قرار میدهد. علاوه بر این NRefactory این قابلیت را داشت که گره‌های موجود در این درخت را Resolve کند و Semantic آنها را نیز در اختیار ما بگذرد.</p>
+
+<p>NRefactory پروژه‌ای با تقریبا صد هزار خط کد برنامه سی‌ شارپ است. به رغم حجیم بودن کد اما، این پروژه هم همانند بسیاری از پروژه‌های اپن سورس دیگر، تقریبا مستندات خاصی‌ برای آن وجود ندارد. با این وجود سه هزار و اندی unit test که در سورس اصلی‌ برنامه وجود دارد، منبع بسیار مناسبی برای آشنایی با چند و چون کار با این کتابخانه وسیع است. هرچند در ابتدا ارتباط برقرار کردن با این نوع از مستند‌سازی و استفاده از آن کمی‌ مشکل مینماید، اما پس از چندی این منبع عظیم و به روز، مناسب‌ترین و مطمئن‌ترین مکان برای آشنایی با قابلیت‌های کتابخانه و کم و کیف طرز کار آن تبدیل خواهد شد.</p>
+
+<h2>چرا Roslyn نه ؟</h2>
+
+<p><a href="http://msdn.microsoft.com/en-us/vstudio/roslyn.aspx">Roslyn</a> همانند NRefactory یک Front-end parser برای سی‌ شارپ است که طراحی و پیاده‌سازی آن توسط مایکروسافت در حال پیگیری است. از جمله مشکلاتی که این کتابخانه دارد یکی‌ Stable نبودن و نرسیدن به نسخه نهایی‌ آن است، دیگری اینکه درختی که این برنامه از پارس کردن کد در اختیار ما قرار میدهد برخلاف NRefactory درختی Immutable است و نمی‌توان توسط آن کد را دستخوش تغییر کرد. این کتابخانه بیشتر برای بررسی‌ آماری کد مناسب به نظر می‌آید.</p>
+
+<p>برای آشنایی با چگونگی‌ کلیت کار، میتوانید <a href="http://ge.tt/6JuQk2o/v/1">این قطعه کد</a> را دانلود و مورد برسی‌ قرار دهید. هرچند در ابتدا مطالعه این مقاله که به دست یکی‌ از نویسندگان کتابخانه NRefactory نوشت شده، و همچنین آشنایی ابتدائی با Visitor Pattern پیشنهاد میشود. ( در آینده چنانچه فرصت شده به توضیح Visitor Pattern خواهم پرداخت )</p>
+
+</div>
+
+<div id="related">
+  <h2>Related Posts</h2>
+  <ul class="posts">
+    
+      <li><span>09 May 2014</span> &raquo; <a href="/software%20engineering/2014/05/09/tdd-is-dead.html">از شانس ما ...</a></li>
+    
+      <li><span>24 Apr 2014</span> &raquo; <a href="/fa/tools/2014/04/24/jumping-on-clouds.html">پریدن از روی ابرها</a></li>
+    
+      <li><span>03 Apr 2014</span> &raquo; <a href="/codes/fa/%D8%AA%D8%AE%D8%B5%D8%B5%DB%8C/2014/04/03/starry-night.html">شب پر ستاره</a></li>
+    
+  </ul>
+</div>
+
+  
+  <div class="footer">
+    <div class="contact">
+      <p>
+        Arash Taher<br />
+      </p>
+    </div>
+    <div class="contact">
+      <p>
+        <a href="http://github.com/arashTaher/">Github</a><br />
+        <a href="http://twitter.com/arash_taher/">Twitter</a><br />
+        <a href="http://plus.goolge.com/+arashTaher">Google plus</a><br />
+      </p>
+    </div>
+    <div class="rss">
+		<!-- <a href="http://feeds.feedburner.com/tom-preston-werner"> <img src="/images/rss.png" alt="Subscribe to RSS Feed" /> </a> -->
+    </div>
+  </div>
+</div>
+
+	<a href="https://github.com/arashTaher"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/c6286ade715e9bea433b4705870de482a654f78a/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f77686974655f6666666666662e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_white_ffffff.png"></a>
+</body>
+</html>

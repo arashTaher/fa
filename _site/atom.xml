@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Arash's Persian blog</title>
+ <link href="http://fa.arashTaher.ir/atom.xml" rel="self"/>
+ <link href="http://fa.arashTaher.ir"/>
+ <updated>2015-07-25T21:59:10+04:30</updated>
+ <id>http://fa.arashTaher.ir/</id>
+ <author>
+   <name>Arash Taher</name>
+   <!-- <email></email> -->
+ </author>
+
+ 
+ <entry>
+   <title>از شانس ما ...</title>
+   <link href="http://fa.arashTaher.ir/software%20engineering/2014/05/09/tdd-is-dead.html"/>
+   <updated>2014-05-09T21:31:33+04:30</updated>
+   <id>http://fa.arashTaher.ir/software%20engineering/2014/05/09/tdd-is-dead</id>
+   <content type="html">&lt;p&gt;هیچی‌ دیگه، تا ما با یه چی حال کردیم، برگشتند میگن &quot;it is dead&quot;.
+حالا نه به این شدت، منتها بحثی‌ است که در گرفته.&lt;/p&gt;
+
+&lt;p&gt;ماجرا چیه ؟ برادر عزیز David Heinemeier Hansson @dhh اومده گفت که TDD is dead. Long live testing !&lt;/p&gt;
+
+&lt;p&gt;TDD is dead. Long live testing: &lt;a href=&quot;http://t.co/1hHOG2SV46&quot;&gt;http://t.co/1hHOG2SV46&lt;/a&gt;
+— DHH (@dhh) &lt;a href=&quot;https://twitter.com/dhh/statuses/458928132527902720&quot;&gt;April 23, 2014&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ایشون ادعا کرده که TDD به ما درسهای زیادی داده، اما الان وقتشه که کنار بذاریم، چون مشکلاتی داره ( که حقیقتش من خوب سر در نیاوردم )
+حالا گویا قرار شده امشب با Kent Beck و Martin Fowler یه Hangout بزارن و راجع به این موضوع بحث کنند. باید دید کار به کجا می‌‌کشه.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>پریدن از روی ابرها</title>
+   <link href="http://fa.arashTaher.ir/fa/tools/2014/04/24/jumping-on-clouds.html"/>
+   <updated>2014-04-24T23:57:51+04:30</updated>
+   <id>http://fa.arashTaher.ir/fa/tools/2014/04/24/jumping-on-clouds</id>
+   <content type="html">&lt;p&gt;به تازگی اوبونتو اعلام کرده که از اول ژوئن می‌خواد سرویس &lt;a href=&quot;http://ubuntuone.com/&quot;&gt;Ubuntu One&lt;/a&gt; رو &lt;a href=&quot;http://voices.canonical.com/ubuntuone/2014/04/02/shutting-down-ubuntu-one-file-services/&quot;&gt;تعطیل کنه&lt;/a&gt;. البته من مدت‌هست که از Dropbox استفاده می‌کنم، با این حال چیزی در حدود ۵۰۰ مگ از داده‌های قدیمیم رو روی اوبونتو وان دارم. داده‌های خیلی‌ مهمی‌ نیستند، اما در این وانفسای اوضاع اینترنت نمیتونم اجازه بدم ۵۰۰ مگ آپلود از دستم بپره، حتا اگه هیچوقت ازشون استفاده نکنم D:&lt;/p&gt;
+
+&lt;p&gt;خلاصه که با کمی‌ جستجو سرویس &lt;a href=&quot;https://mover.io/&quot;&gt;Mover&lt;/a&gt; رو پیدا کردم که بهت اجازه میده هر دو سرویس Cloud storage رو به هم متصل و sync کنی‌. خیلی‌ ساده و سر‌راست، تقریبا از تمام سرویس‌های مطرح هم پشتیبانی‌ می‌کنه.
+میتونی‌ بگی‌ کل داده‌های رو یکجا انتقال بده، یا اینکه زمانبندی مشخصی‌ کنی‌ و بگی‌ در باز‌های زمانی مشخص داده‌های یکی‌ رو در دیگر کپی‌ کنه.
+هرچند نکته‌ای که هست اینه که به صورت رایگان فقط اجازه جابجا یی دو گیگ رو میده، که خیلی‌ هم بد نیست.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>شب پر ستاره</title>
+   <link href="http://fa.arashTaher.ir/codes/fa/%D8%AA%D8%AE%D8%B5%D8%B5%DB%8C/2014/04/03/starry-night.html"/>
+   <updated>2014-04-03T12:45:35+04:30</updated>
+   <id>http://fa.arashTaher.ir/codes/fa/%D8%AA%D8%AE%D8%B5%D8%B5%DB%8C/2014/04/03/starry-night</id>
+   <content type="html">&lt;p&gt;اگر خاطرتون باشه یه مدت پیش Path Navigator رو &lt;a href=&quot;http://arashthr.wordpress.com/2013/11/07/%d9%be%d8%b1%db%8c%d8%af%d9%86-%d8%a7%d8%b2-%d8%b4%d8%a7%d8%ae%d9%87%e2%80%8c%d9%87%d8%a7/&quot;&gt;معرفی‌ کردم&lt;/a&gt; که تلاشی بود برای ساده سازی فرایند ملال آور باز کردن و جابجایی در پوشه‌ها که قابلیت‌هایی‌ مثل Auto-Completion داشت.&lt;/p&gt;
+
+&lt;p&gt;الان که چند ماه از معرفیش میگذار و خودم هم حسابی‌ باهاش کار کردم، تصمیم گرفتم دستی‌ به سر و روش بکشم : چند تا باگ کوچیک رو برطرف کردم و ظاهرش رو کمی‌ تغییر دادم ( الان میتونید شب پر ستاره وان گوگ رو به عنوان پس زمینه داشته باشید ).
+علاوه بر این لازم دیدم یه extension برای Explorer که کار رو خیلی‌ لذت بخش‌تر و روون تر می‌کنه هم معرفی‌ کنم : &lt;a href=&quot;http://ejie.me/&quot;&gt;Clover&lt;/a&gt;. این برنامه به Explorer تب‌هایی‌ مثل تب‌های کروم اضافه می‌کنه.&lt;/p&gt;
+
+&lt;p&gt;معجون تمام این اصلاحات و تغییرات شد چیزی مانند آنچه در زیر می‌بینید :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://arashthr.files.wordpress.com/2014/04/screenshot2.png&quot;&gt;&lt;img src=&quot;http://arashthr.files.wordpress.com/2014/04/screenshot2.png&quot; alt=&quot;screenshot2&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;این بار به جای Ge.tt برنامه و کدش رو در &lt;a href=&quot;http://bit.ly/1j03s71&quot;&gt;Dropbox قرار دادم&lt;/a&gt;، به این ترتیب به روز کردنش خیلی‌ ساده‌تر می‌شه، بدون اینکه لینک خراب شه. شاید بعدا رو github یا sourceForge هم قرارش دادم.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>انتخاب آنچه خوب است</title>
+   <link href="http://fa.arashTaher.ir/%D8%A7%DB%8C%D8%AF%D9%87%D9%87%D8%A7/2014/02/21/whats-good.html"/>
+   <updated>2014-02-21T18:34:08+03:30</updated>
+   <id>http://fa.arashTaher.ir/%D8%A7%DB%8C%D8%AF%D9%87%D9%87%D8%A7/2014/02/21/whats-good</id>
+   <content type="html">&lt;p&gt;شبکه اجتماعی گوگل پلاس به نظر من بی روح ترین و سردترین محیط اجتماعی است که در حال حاضر وجود داره، با این حا به دلیل کوچ کردن گودری ها به اون، میتوان چشم رو به روی فضای نمورش بست و از محتواش لذت برد.&lt;/p&gt;
+
+&lt;p&gt;من افراد زیادی رو دنبال نمیکنم، اما تولید محتوای همین افراد کم هم به نحو چشمگیری بالاست. از همه چیز و همه کس حرف زده میشه و بحث درگرفته میشه. سیاست و اقتصاد، کتاب و سینما، معضلات اجتماعی، موسیقی، سریال و ...&lt;/p&gt;
+
+&lt;p&gt;خب حقیقتا من به همه این مطالب علاقمند نیستم و صرفا چون این فرد رو دنبال کردم ناچارم لااقل به سرتیتر تمام حرفهاش هم دقت توجه کنم. در واقع کنترلی روی چیزی که قراره بخونم ندارم و به نظر من این بده. در حجم عظیمی از داده که من هرروز باید باهاش درگیر باشم، روخوانی دلنوشته ها و بحث های عقیدتی یک فرد رو به خوبی میتوان متناسب با عنوان اسپم در نظر گرفت. با این حال این فرد حرفهایی شنیدنی و باارزش هم داره که باعث شده من دنبالش کنم.&lt;/p&gt;
+
+&lt;p&gt;خب، چیزی که من داشتم بهش فکر میکردم این بود که چقدر خوب بود اگر میشد تفکیکی بین این نوشته ها در نظر گرفته بشه، تا فقط مطالب مطلوبم جلوی چشمم قرار بگیره. مثلا بتوان صرفا هشتگ های خاصی از نوشته های هر فرد را دنبال کرد، هشتگهایی که خود فرد بر روی پستهاش قرار میده. البته تعداد کل دسته بندیهای کلی با این هشتگ ها نباید بیش از حد بالایی باشه تا انتخابشون مشکل نباشه.
+به نظر من پیاده سازی این ایده میتونه نسبتا سرراست و نتیجه اش بسیار دلچسب باشه.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>سودوکو مودوکو</title>
+   <link href="http://fa.arashTaher.ir/codes/fa/2014/02/03/sudoku.html"/>
+   <updated>2014-02-03T00:37:48+03:30</updated>
+   <id>http://fa.arashTaher.ir/codes/fa/2014/02/03/sudoku</id>
+   <content type="html">&lt;p&gt;نمیدونم بابا از کجا، یه مساله سودکو گیر آورده بود و رو کاغذ نوشته بود. بعد از یک ساعت تلاش دیدم پاک کن برداشته و داره همش رو پاک می‌کنه. ازش پرسیدم مطمئنه سودکو درست و قابل حله ؟ جواب داد نمیدونه. نگاهی‌ بهش انداختم، در یک نگاه نمی‌شد گفت مشکلی‌ داره. این شد که یاد برنامه حل سودکو افتادم که چند وقت قبل نوشته بودم. سودوکو رو از روی کاغذ وارد یه فایل کردم و معلوم شد که بله، از بیخ و بن مشکل داره و قابل حل نیست.&lt;a href=&quot;http://arashthr.files.wordpress.com/2014/02/sudoku.jpg&quot;&gt;&lt;img src=&quot;http://arashthr.files.wordpress.com/2014/02/sudoku.jpg?w=300&quot; alt=&quot;sudoku&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;کد برنامه رو که نگاه کردم دیدم چیز نسبتا سر راست و خوبی‌ از آب در اومده، به خصوص اینکه به صورت همروند هم پیاده سازی شده و سرعت خوبی‌ داره، هرچند جای برای تمیز کاری زیاد هست، با این حال ...
+خلاصه، از &lt;a href=&quot;http://ge.tt/2itCj1G/v/1?c&quot;&gt;اینجا&lt;/a&gt; میتونید کد برنامه حل سودکو به صورت همروند و به زبان پایتون رو دریافت کنید.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>روباه آتشین، خیزان</title>
+   <link href="http://fa.arashTaher.ir/fa/tools/2014/01/21/jumping-firefox.html"/>
+   <updated>2014-01-21T00:22:22+03:30</updated>
+   <id>http://fa.arashTaher.ir/fa/tools/2014/01/21/jumping-firefox</id>
+   <content type="html">&lt;p&gt;فایرفاکس اخیرا پیشرفت‌های خیلی‌ خوبی‌ رو داشته. به عنوان مثال در نسخه دسکتاپ حالا دیگه می‌شه بدون شروع مجدد، افزونه‌ها رو نصب و استفاده کرد، در نسخه موبایل هم قابلیت‌های جذابی مثل Reading list اضافه شده که بهتون اجازه میده صفحات رو ذخیره کرده و بعدا بخونید. علاوه بر اینکه دستی‌ هم به سر روی UI کشیده و روان تر و زیباترش کرده.&lt;/p&gt;
+
+&lt;p&gt;البته سمت دیگر این رقابت هم تحولات در خور توجهی‌ در حال وقوع است. باید اعتراف کنم تغییرات کروم من رو یاد فیلم Transformers میندازه. این مرورگر کم کم داره به غولی بی‌ شاخ و دم تبدیل می‌شه. اضافه کردن App launcher برای برنامه‌های Offline قدم اول در تبدیل شدن کروم به فرا مرورگر می‌تونه باشه. وقتی‌ سرعت بسیار بالای اون رو هم به همه این موارد اضافه کنیم، می‌بینیم که فایرفاکس با یک رقیب بسیار گردن کلفت طرف است.&lt;/p&gt;
+
+&lt;p&gt;ضمن اذعان به همه این نکات، من هنوز هم از فایرفاکس استفاده می‌کنم. جدای از این موضوع که احساس راحتی‌ و امنیت بیشتری دارم، از لحاظ مصرف منابع فایرفاکس بسیار بهینه تر از کروم عمل می‌کنه. من هنگام وب گردی معمولا تعداد تب های زیادی رو باز می‌کنم. با چند بار امتحان و کمی‌ دقت، خواهید دید که مصرف حافظه در کروم به طرز قابل توجهی‌ بیشتر از فایرفاکس است. علاوه بر این در Task manager هم به چند تا پردازش تبدیل می‌شه که به دست آوردن مقدار کلی‌ حافظه مصرفی رو سخت تر می‌کنه.&lt;/p&gt;
+
+&lt;p&gt;اگر فکر می‌کنید این صرفاً یک نظر و مشکل شخصی‌ و خاص محسوب می‌شه، پیشنهاد می‌کنم به &lt;a href=&quot;http://www.hanselman.com/blog/FindingALowmemoryBrowser.aspx&quot;&gt;این پست از Hanselman&lt;/a&gt; نگاهی‌ بندازید که اون هم دقیقا چنین دغدغه‌ای رو تحت عنوانه Finding a low-memory browser مطرح کرده.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>وی چت ؟</title>
+   <link href="http://fa.arashTaher.ir/%D9%86%D9%88%D8%B4%D8%AA%D8%A7%D8%B1%20%D8%B4%D8%AE%D8%B5%DB%8C/%D8%AA%D8%AE%D8%B5%D8%B5%DB%8C/2013/11/28/wechat.html"/>
+   <updated>2013-11-28T12:45:23+03:30</updated>
+   <id>http://fa.arashTaher.ir/%D9%86%D9%88%D8%B4%D8%AA%D8%A7%D8%B1%20%D8%B4%D8%AE%D8%B5%DB%8C/%D8%AA%D8%AE%D8%B5%D8%B5%DB%8C/2013/11/28/wechat</id>
+   <content type="html">&lt;p&gt;اولین باری که اسم برنامه WeChat رو شنیدم در یک مهمانی بودم و همه تعریف میکردند از اینکه چه برنامه خوبی‌ است و من چقدر ازش استفاده می‌کنم و من را یادت باشد add کنی‌ و این حرف‌ها.
+گذشت و چندین بار دیگر دوباره نام این برنامه را شنیدم. در نهایت دیشب تصمیم گرفتم که برای امتحان این برنامه را نصب کنم.&lt;/p&gt;
+
+&lt;p&gt;تقریبا ۲۴ مگ حجم برنامه بود که شاید کمی‌ زیاد محسوب شود. داشتم توضیحاتی راجع به این برنامه را میخواندم که با اولین زنگ خطر مواجه شدم : سازنده برنامه یک شرکت چینی‌ بود ! به عقیده من هیچگاه نمی‌توان به محصولات اینترنتی کشوری که بزرگترین و پیشرفت‌ترین سیستم سانسور را دارد و بیش از چند صد هزار جفت چشم برای کنترل تک تک اعمال و رفتار شهروندان خود به کار بسته اعتماد کرد.&lt;/p&gt;
+
+&lt;p&gt;به هر حال با عنایت به این موضوع تصمیم به ادامه مسیر گرفتم. برای Sign-up کردن، نام، نام کاربری و شماره همراه نیاز بود که وارد کردم و پس از دریافت کد امنیتی از طریق پیام کوتاه وارد محیط اصلی‌ برنامه شدم.
+از آنجایی‌ که اسم چین حساسیت را در من برانگیخته بود، خیلی‌ محتاطانه جلو میرفتم. پس از گذشت چند دقیقه، دو نکته بسیار مهم در این برنامه توجه من رو جلب کرد : اولا هیچ تبلیغی نمایش داده نمی‌شد، ثانیا این برنامه به اینصورت نبود که یک نسخه پولی‌ داشته باشه و همه امکانات به صورت رایگان بود.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://arashthr.files.wordpress.com/2013/11/wechat-logo-210513.jpg&quot;&gt;&lt;img src=&quot;http://arashthr.files.wordpress.com/2013/11/wechat-logo-210513.jpg?w=300&quot; alt=&quot;wechat-logo-210513&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;خیلی‌ خوب همین‌ها کافی‌ بود ! در این شرایط سوالی بدیهی‌ وجود دارد که پرسیدن آن از خود میتواند جلوی بخش عمده‌ای از مشکلات امنیتی را بگیرد، اما خیلی‌ اوقات فراموشش میشود : چرا کسی‌ باید چنین کاری بکند ؟ چرا فردی باید چنین سرویسی را به رایگان در اختیار همه قرار بدهد ؟ با اطمینان می‌شه گفت که به جز نرم‌افزار‌های آزاد ( و نه حتی اپن سورس ) هیچ کس به خاطر خیرش این کار را نمی‌کنه. هیچکس. حالا گاهی اوقات این هیچکس گوگل است که یک شرکت اسم و رسم دار آمریکایی‌ با سیاست‌های کلان جهانی‌ است که میشود با تبیین سیاست‌هاش سر از کارش در آورد و باهاش کنار اومد، یه وقت یه شرکت ناشناخته چینی‌ !&lt;/p&gt;
+
+&lt;p&gt;انتظار دارید چکار کنم ؟ به سرعت از برنامه خارج شدم؛ جالب اینکه موقع Sign-out به من میگه پسورد بزن ! بی‌خیال پس شدم و رفتم یه راست uninstall کردمش. سپس یک سرچ زدم رو weChat security و ... به به !&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;WeChat: the Chinese social media app that has dissidents worried - &lt;a href=&quot;http://www.theguardian.com/world/2012/dec/07/wechat-chinese-social-media-app&quot;&gt;TheGaurdian&lt;/a&gt;&lt;br /&gt;
+WeChat IM Application Could Disclose Your Password To Attackers - &lt;a href=&quot;http://slashdot.org/story/13/09/17/2317218/wechat-im-application-could-disclose-your-password-to-attackers&quot;&gt;Slashdot&lt;/a&gt;&lt;br /&gt;
+WeChat is a threat to national security claim researchers - &lt;a href=&quot;http://www.paritynews.com/2013/08/26/2487/wechat-is-a-threat-to-national-security-claim-researchers/&quot;&gt;ParityNews&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;در اینجا موضوعی مطرح میشود که چکیده این صحبت محسوب میشود : برای استفاده از دانش آموزش ندیده‌ایم !
+همانطور که دیدید یک سرچ ساده چقدر میتواند اطلاعات میفیدی راجع به این محصول و یا هر محصول دیگر در اختیار ما بگذرد. اما همانطور که از محبوبیت این برنامه در جامعه پیداست، دریغ از کوچکترین تلاش. به سادگی‌ اجازه میدهیم تا جریان پر تلاطم جمعیت، ما را به هر سو که می‌خواهد ببرد. هنوز به خاطر دارم که چطور چشم‌ها به ماه دوخته شده بودم برای دیدن لوگوی پپسی، در حالی‌ که با سر زدن به سایت پپسی، حساب توییتر آن و یا حتی عقل سالیم، به راحتی‌ میشد کذب بودن این داستان را مشخص نمود.
+فاصله ما تا دانش تنها چند کلیک است، از آن استفاده کنیم.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://arashthr.files.wordpress.com/2013/11/index.jpg&quot;&gt;&lt;img src=&quot;http://arashthr.files.wordpress.com/2013/11/index.jpg&quot; alt=&quot;index&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>کطاب مرجع !</title>
+   <link href="http://fa.arashTaher.ir/computer%20topics/fa/%D9%86%D9%88%D8%B4%D8%AA%D8%A7%D8%B1%20%D8%B4%D8%AE%D8%B5%DB%8C/%DA%A9%D8%AA%D8%A7%D8%A8/2013/11/25/references.html"/>
+   <updated>2013-11-25T21:09:30+03:30</updated>
+   <id>http://fa.arashTaher.ir/computer%20topics/fa/%D9%86%D9%88%D8%B4%D8%AA%D8%A7%D8%B1%20%D8%B4%D8%AE%D8%B5%DB%8C/%DA%A9%D8%AA%D8%A7%D8%A8/2013/11/25/references</id>
+   <content type="html">&lt;p&gt;چند روز قبل بنا به ضرورتی رفتم سراغ یکی‌ از &lt;a href=&quot;http://www.amazon.com/Introduction-Formal-Languages-Automata-Edition/dp/144961552X/ref=sr_1_2?ie=UTF8&amp;amp;qid=1382564452&amp;amp;sr=8-2&amp;amp;keywords=linz&quot;&gt;کتاب‌های مرجع&lt;/a&gt; دوران دانشگاه تا مبحثی رو از روی اون مطالعه کنم. در طول ترمی که این درس رو داشتم استاد جزوه قطور و جامعی میگفت، من هم به جای این کتاب، از روی &lt;a href=&quot;http://www.amazon.com/Introduction-Theory-Computation-Michael-Sipser/dp/0534950973&quot;&gt;یه کتاب دیگه&lt;/a&gt; مباحث رو دنبال می‌کردم. برای همین با ساختار کتاب اصلی‌ خیلی‌ آشنا نبودم.&lt;/p&gt;
+
+&lt;p&gt;کتاب رو باز کردم، سراغ بخش مرتبط رفتم و شروع کردم به خواندن ... پس از چند دقیقه مطالعه، با دهانی باز، مات و مبهوت مونده بودم؛ مات و و مبهوت از اینکه این کتاب تا چه حد به درد نخوره ! گنگ و نامفهوم در بیان اصول، پراکندگی مطالب در سطح کتاب، ارجاعات نادرست به صفحات و سوالات، اثبات‌های بی‌ ارزش و گیج کنند، مثال‌های نابجا و ... خلاصه از از هر شاخه درخت مزخرفات، میوه‌ای چیده بود.&lt;/p&gt;
+
+&lt;p&gt;برخورد به این موضوع باعث شد به خاطر بیارم که چنین تجربه‌ای چندان استثنایی‌ هم نیست. کتاب‌های بسیاری بودند در دوران دانشگاه، که جز تحمیل هزینه و افزایش حجم و جرم و زندگی‌ دانشجو، ثمره دیگری نداشتند. این شد که تصمیم گرفتم نگاهی‌ به سایت آمازون و نظراتی که افراد مختلف روی برخی‌ از این کتاب‌ها داده بودند بندازم :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://arashthr.files.wordpress.com/2013/11/linz1.jpg&quot;&gt;&lt;img src=&quot;http://arashthr.files.wordpress.com/2013/11/linz1.jpg&quot; alt=&quot;linz&quot; /&gt;&lt;/a&gt;  &lt;a href=&quot;http://www.amazon.com/Introduction-Formal-Languages-Automata-Edition/dp/144961552X/ref=sr_1_2?ie=UTF8&amp;amp;qid=1382564452&amp;amp;sr=8-2&amp;amp;keywords=linz&quot;&gt;کتاب نظریه‌ زبان و ماشین، لینز&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+&gt;
+&gt; Deserve one of the best poorly written for CS theory
+This book is boring in places and confusing in others
+One of the worst books that I have had to use in a college course
+Useless
+&gt;
+&gt;
+&lt;/blockquote&gt;
+
+
+&lt;p&gt;( موضوع قابل تامل این است که اگر به سایت‌های در رابطه با کنکور ارشد سر بزنید، می‌بینید که چطور درّ گرفتن به سر تا پای این کتاب )&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://arashthr.files.wordpress.com/2013/11/pressman.jpg&quot; alt=&quot;pressman&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;   &lt;a href=&quot;http://www.amazon.com/Software-Engineering-A-Practitioners-Approach/dp/0073375977&quot;&gt;کتاب مهندسی‌ نرم افزار، پرسمن&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+&gt;
+&gt; This book is actively harmful to Software Engineering
+Waste of money
+If I could give a zero, I would
+Stay away from this book if you can
+&gt;
+&gt;
+&lt;/blockquote&gt;
+
+
+&lt;p&gt;&lt;img src=&quot;http://arashthr.files.wordpress.com/2013/11/rosen.jpg&quot; alt=&quot;rosen&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;  &lt;a href=&quot;http://www.amazon.com/Discrete-Mathematics-Applications-Kenneth-Rosen/dp/0073383090/ref=pd_sim_b_3&quot;&gt;کتاب ریاضیات گسسته، روزن&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+&gt;
+&gt;   Just awful
+Worst math textbook. Ever
+This book cools down your passion for math
+Horrible Book
+&gt;
+&gt;
+&lt;/blockquote&gt;
+
+
+&lt;p&gt;این لیست سر دراز دارد و درس‌هایی‌ دیگر چون زبان ماشین، ذخیر و بازیابی، زبان تخصصی، محاسبات عددی و ... را نیز می‌توان در گنجاند.
+ای کاش اساتید کمی‌ بیشتر برای انتخاب کتابی‌ که قراره عمری همراه و مرجع دانشجو باشه دقت و حساسیت بیشتر به خرج بدن. در کنارش خودمون هم چشم بسته هرچی‌ که بهمون میگن خوبه رو قبول نکنیم.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>رو به جلو</title>
+   <link href="http://fa.arashTaher.ir/42/fa/%D9%86%D9%88%D8%B4%D8%AA%D8%A7%D8%B1%20%D8%B4%D8%AE%D8%B5%DB%8C/2013/11/25/forward.html"/>
+   <updated>2013-11-25T18:36:46+03:30</updated>
+   <id>http://fa.arashTaher.ir/42/fa/%D9%86%D9%88%D8%B4%D8%AA%D8%A7%D8%B1%20%D8%B4%D8%AE%D8%B5%DB%8C/2013/11/25/forward</id>
+   <content type="html">&lt;p&gt;امروز مشغول دیدن مستندی راجع به طرز ساخت قنات به روش های سنتی بودم، خطرها و مکافاتی که افراد به جان می‌خریدند برای دستیابی به آب. در انتهای مستند، نیم نگاهی هم داشت به روش های مدرن برای حفر چاه و قنات و لوله کشی، و میگفت از اینکه این آب دیگه طعم و طراوت آب به دست آمده از قنات سنتی را ندارد و چقدر &quot;بد&quot; شده.&lt;/p&gt;
+
+&lt;p&gt;این اولین باری نبود که شاهد تقبیح و گله از مدرنیته در صدا سیما بودم، که به عکس این سناریو تا حدی تکراری است که من را مجاب به نوشتن این پست کرد : تکرار و تکرار و تکرار این موضوع که تکنولوژی ما را از هم دور کرده است، رفتار انسانها ماشینی شده است، آن خانه های حیاط دار قدیمی چقدر خوب بود و غیره. تلاشی ممتد برای اینکه تمام مشکلات بر دوش &lt;em&gt;پیشرفت&lt;/em&gt; گذاشته شود.&lt;/p&gt;
+
+&lt;p&gt;جدای از مسایل سیاسی و تقابل اندیشه ها در نسل پیش از ما، که به خودی خود منجر به رشد چنین تفکراتی شده، ترس از تغییر، امکان منقضی شدن و رویارویی با ناشناخته ها همگی عواملی است که رشد و گسترش تکنولوژی را در کشور ما کند کرده؛ و متاسفانه به جای آموزش برای مواجهه با این تغییرات، آنچه انجام میشود محدود به بد گویی از علم است و غر زدن به آن.&lt;/p&gt;
+
+&lt;p&gt;حال آنکه دستاوردهایی که از رشد و ترویج علوم به دست آورده ایم بیشمار است : دسترسی راحتتر به دانش، امکان هرچه بیشتر شکوفایی استعدادها، افزایش سطح آسایش و سلامت و …&lt;/p&gt;
+
+&lt;p&gt;دسترسی ۷\۲۴ به طعام در کدام دوره از تاریخ ۲۵۰۰ ساله تمدن برای همگان میسر بوده ؟ در کدام دوره تمامی انسان‌ها با هم برابر انگاشته می‌شدند ؟ حفظ محیط زیست و احترام به انواع گونه حیات چه هنگام اینچنین مصرانه پیگیری میشد ؟
+با تمام این اوصاف اما، تغییر پارادایم زندگی و معاش از فرم Hunter-gatherer به فرم مدرن نیازمند آموزش است.&lt;/p&gt;
+
+&lt;p&gt;واردات فله ای دانش و تکنولوژی و برخورد با آن نه به عنوان ابزاری برای ارتقا جایگاه خود و جامعه، که صرفا به عنوان وسیله ای برای فخر فروشی، تجمل و خرج پول و سرانه مطالعه کمتر از چند دقیقه در کشور نتیجه ای نم‌یدهد جز ... جز آنچه که امروز شاهدش هستیم. آموزش نیاز است، آموزشی صحیح با دیدی روشن نسبت به مسیر پیش رو و قبول تغییرات.
+چشم پوشی و تعریف خاطرات شیرین گذشته از پای کرسی و قصه های مادربزرگ راهکار نیست.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>ماموریت فراموش شده</title>
+   <link href="http://fa.arashTaher.ir/reading/2013/11/11/forgotten-mission.html"/>
+   <updated>2013-11-11T00:11:45+03:30</updated>
+   <id>http://fa.arashTaher.ir/reading/2013/11/11/forgotten-mission</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://arashthr.files.wordpress.com/2013/04/isac.jpg&quot;&gt;&lt;img src=&quot;http://arashthr.files.wordpress.com/2013/04/isac.jpg&quot; alt=&quot;isac&quot; /&gt;&lt;/a&gt;ماموریت فراموش شده اسم کتابی‌ است که این روز‌ها دارم میخونمش. البته کتاب رو سال‌ها قبل خونده بودم، اما از اونجا که به جز آخرش (!) بقیه‌اش رو فراموش کرده بودم، گفتم یک بار دیگه بیشینم پاش.&lt;/p&gt;
+
+&lt;p&gt;شخصیتی که مجرا حول اون فرد می‌چرخه، یکی‌ از ماموران آی اس‌ بی‌ است که وظیفه تحلیل و مطالعه فضای بین کهکشانی ( عدم و خلا ) رو بر عهد داره ( Cool ! ). این فرد در تحقیقاتش به حقیقتی مهم دست پیدا می‌کنه که می‌تونه تاثیرات مهمی‌ داشته باشه. اما افرادی هستند که از این حقایق نا‌خشنودند و تصمیم میگیرند برای رفع این مشکل، حافظه دانشمند ما رو به طور کامل پاک کنند.&lt;/p&gt;
+
+&lt;p&gt;مثل بقیه کار‌های ایزاک آسیموف این کار هم در ژانر علمی‌ تخیلی‌ است. ضرباهنگ داستان تند و کنار گذاشتن کتاب واقعا سخته. در کنارش نکته‌ای که برای من بسیار جالب بود، عنایت خاصی‌ است که آسیموف در این کتاب به مسائل نژادی دارد و اینکه چگونه با سخت‌گیری تمام آنها را تقبیح می‌کند. برای مثال در بیان تعجب یکی‌ از شخصیت‌ها، در رابطه با اینکه چرا افراد به خاطر رنگ پوست متفاوت باید با نام‌های متفاوت نامگذاری شوند می‌گوید، چرا افرادی که چشمانی آبی‌ یا گوش‌هایی‌ بزرگ دارند نام متفاوت بر خود ندارند ؟ در کنار این موضوع، نکوهش دائمی عمل استعمار و ستایش آزادی و آزادی‌خواهی‌ در کتاب موج میزند.&lt;/p&gt;
+
+&lt;p&gt;هرچند من به شخصه فضای داستان‌های جان کریستفر رو بیشتر می‌پسندم، اما خواندن این کتاب تا به اینجای کار برای من یکی‌ که بسیار مفرّح بود. باشد که شما هم اگر دستتان رسید، بخوانیدش.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>تبدیل ابری</title>
+   <link href="http://fa.arashTaher.ir/tools/2013/11/10/cloudconvert.html"/>
+   <updated>2013-11-10T23:45:49+03:30</updated>
+   <id>http://fa.arashTaher.ir/tools/2013/11/10/cloudconvert</id>
+   <content type="html">&lt;p&gt;از اونجا که من معمولا در فواصل زمانی‌ کم سیستم عامل رو عوض می‌کنم، و همینطور به دلیل اینکه از شلوغ کردن محیط با نصب برنامه‌های مختلف چندان خوشم نمیاد، یکی‌ از معضلاتی که هر از چند گاهی باهاش روبرو میشم، برخورد با فرمت‌هایی‌ است که نیاز به یک برنامه خاص دارند.&lt;/p&gt;
+
+&lt;p&gt;این موضوع خود مکافاتی است : پیدا کردن برنامه مناسب، پیدا کردن لینک، دانلود برنامه با این وانفسای محدودیت در سرعت و حجم و ...
+علاوه بر اینها، گاهی اوقات در شرایطی گیر می‌کنید که اصولاً امکان نصب برنامه بر روی سیستم براتون وجود نداره.&lt;/p&gt;
+
+&lt;p&gt;در چنین وضعیتی، یکی‌ از سایت‌هایی‌ که چندین بار بهم کمک کرده سایت &lt;a href=&quot;https://cloudconvert.org/&quot;&gt;Could Convert&lt;/a&gt; بوده.
+طرز کار سایت بسیار ساده است : فایل خودتون رو آپلود می‌کنید، به هر فرمتی که خواستید تبدیلش می‌کنید ( برای مثل djvu به pdf )، و سپس فایل تبدیل شده رو به سادگی‌ دانلود می‌کنید، و یا اگر خواستید، به جای دانلود، اون رو در Dropbox یا GoogleDrive خودتون ذخیره می‌کنید. سایت به شکل موثری ساده طراحی شده که در نتیجه کار باهاش رو روان و بی‌ دردسر می‌کنه.&lt;/p&gt;
+
+&lt;p&gt;در کنار همه خوبی‌‌ها مشکلاتی هم داره. مثلا امکان فشرده سازی فایل قبل از دریافت رو به آدم نمیده. ( pdf رو نمیتونید قبل از دانلود فشرده کنید )&lt;/p&gt;
+
+&lt;p&gt;در کل پیشنهاد می‌کنم یه نگاهی‌ بندازید و bookmark کنیدش، یه روزی، یه جایی‌ به دردتون می‌خوره.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>پریدن از شاخه‌ها</title>
+   <link href="http://fa.arashTaher.ir/codes/fa/2013/11/07/panvig.html"/>
+   <updated>2013-11-07T18:47:23+03:30</updated>
+   <id>http://fa.arashTaher.ir/codes/fa/2013/11/07/panvig</id>
+   <content type="html">&lt;p&gt;یک برنامه ساده و جمع و جور به منظور هرچه راحت تر کردن حرکت بین شاخه‌ها؛ در واقع آوردن قابلیت Auto-Complete برای پوشه‌ها.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://arashthr.files.wordpress.com/2013/11/p2.png&quot;&gt;&lt;img src=&quot;http://arashthr.files.wordpress.com/2013/11/p2.png?w=300&quot; alt=&quot;Path Navigator prorgram&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;مدت‌ها بود که می‌خواستم بنویسمش، اما موقعیت جور نمی‌شد. زمانی‌ که با اوبونتو ۱۰.۰۴ کار می‌کردم، با فشار دادن کلی‌ Shift+F2 پنجره Run باز میشد که اون هم تقریبا همین کار رو انجام میداد. اما از نسخه‌های بعدی این قابلیت به خوبی‌ قبل پشتیبانی‌ نمی‌شد. ( برای مسیر‌های از شاخه Home ، باید ابتدا کلید ~ رو میفشردیم ! )
+البته در ویندوز از همان ابتدا چنین چیزی وجود نداشت. مکافات فشردن پنجره و E و شروع از My Computer و کشیدن موس به این سمت و اون سمت برای من واقعا اعصاب خورد کنه. حالا باز خدا رو شکر به خاطر وجود &lt;a href=&quot;http://www.xyplorer.com&quot;&gt;XYplorer&lt;/a&gt; ، یک برنامه جایگزین فوق‌العاده برای Explorer ویندوز.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://arashthr.files.wordpress.com/2013/11/p3.png&quot;&gt;&lt;img src=&quot;http://arashthr.files.wordpress.com/2013/11/p3.png?w=300&quot; alt=&quot;XYplorer&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;از نظر برنامه‌نویسی هم نکته‌ای که می‌تونه مفید باشه، کلاسی است که از اون برای کار با Hot-Key‌ها و رزرو کردن اونها در سیستم عامل این برنامه استفاده شده، می‌تونه بعدا به درد بخور.&lt;/p&gt;
+
+&lt;p&gt;خوشحال میشم استفاده کنید و اگه جا برای بهبود داره، یا خودتون اقدام کنید یا به من اطلاع بدید. کد‌ها رو از &lt;a href=&quot;http://ge.tt/6JuQk2o/v/6?c&quot;&gt;اینجا&lt;/a&gt;، و فایل‌های اجرایی رو از &lt;a href=&quot;http://ge.tt/6JuQk2o/v/4?c&quot;&gt;اینجا&lt;/a&gt; میتونید دریافت کنید. کد برنامه مسلما به زبان فصیح سی‌ شارپ نوشته شده است.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>افراز‌</title>
+   <link href="http://fa.arashTaher.ir/codes/fa/2013/11/07/partitioning.html"/>
+   <updated>2013-11-07T16:53:02+03:30</updated>
+   <id>http://fa.arashTaher.ir/codes/fa/2013/11/07/partitioning</id>
+   <content type="html">&lt;p&gt;چند روز پیش در کتاب ریاضیات گسسته به مساله &lt;a href=&quot;http://mathworld.wolfram.com/SetPartition.html&quot;&gt;افراز‌های یک مجموعه&lt;/a&gt; بر خوردم. در کتاب به این موضوع اشاره‌ای نشده بود، اما کاملا مشخص بود که تولید این مجموعه از یک ساختار بازگشتی تبعیت می‌کنه.&lt;/p&gt;
+
+&lt;p&gt;از اونجایی‌ که موضوع پیچ و خم داری به نظر می‌رسید ( کافیه به فرمول یافتن تعداد اعضای این مجموعه نگاه بندازید تا بفهمید چی‌ میگم ) تصمیم گرفتم یک برننم برا تولید این مجموعه رو بنویسم.مسائل بازگشتی در حیطه مجموعه‌ها به صورت کلی‌ از قاعده &quot;بودن و نبودن&quot; پیروی می‌کنه. این یکی‌ هم استثنا نبود، هرچند کمی‌ ریزه کاری هم داشت.
+خلاصه، این راه حلی‌ است که من برای این سوال پیش گرفتم، در زبان پایتون :&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;c&quot;&gt;# Prints partitions of set : [1,2] -&amp;gt; [[1],[2]], [[1,2]]&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;part&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;final&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;final&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;elif&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;final&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;part&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;final&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[:])&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;part&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[:],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]])&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>استثنایی‌</title>
+   <link href="http://fa.arashTaher.ir/computer%20topics/fa/technology/%D9%86%D9%88%D8%B4%D8%AA%D8%A7%D8%B1%20%D8%B4%D8%AE%D8%B5%DB%8C/2013/10/24/exceptional-apple.html"/>
+   <updated>2013-10-24T00:57:26+03:30</updated>
+   <id>http://fa.arashTaher.ir/computer%20topics/fa/technology/%D9%86%D9%88%D8%B4%D8%AA%D8%A7%D8%B1%20%D8%B4%D8%AE%D8%B5%DB%8C/2013/10/24/exceptional-apple</id>
+   <content type="html">&lt;p&gt;من خودم، هیچوقت مصرف کنند محصولات اپل نبودم (و احتمالش هست که نشم) با این حال این مساله دلیل نمی‌شه که برای این شرکت احترام قائل نباشم و جایگاهش به عنوان یکی‌ از موفقترین و با اصول‌ترین شرکت‌ها رو مدح و ستایش نکنم.&lt;/p&gt;
+
+&lt;p&gt;ارائه جدید‌ترین و به روز‌ترین نسخه سیستم عامل و برنامه‌های کاربردی به رایگان، موضوعی نیست که در دنیای نرم‌افزارهای مالکیتی خیلی‌ عمومیت داشته باشه ( ویندوز ۸ واقعا سریع شده، اما ۱۹۹ دلار عزیز ! ) مسلما این احترامی که اپل برای مشتریان خودش قائله، باعث ایجاد حس احترمی متقابل، افزایش اطمینان و رضایت خاطر در نزد کاربر می‌شه.&lt;/p&gt;
+
+&lt;p&gt;در کنارش توجه و عنایت خاصی‌ که این شرکت به توسعه دهندگانش داره، در نوع خودش واقعا بی نظیره. یک بستر مطمئن، با امکانات فراوان و ساختاری منسجم. شما نگران اینکه فردا باید با تغیرات عدیده سخت/نرم افزاری دست و پنجه نرم کنی‌ نیستی‌، و یا ترس از اینکه در جنگ پتنت‌ها &lt;a href=&quot;http://www.zoomit.ir/articles/mobile/7394-%D9%BE%D8%AA%D9%86%D8%AA-%D8%A7%D9%BE%D9%84-%D8%AA%D8%B6%D8%B9%DB%8C%D9%81-%D8%A7%D9%86%D8%AF%D8%B1%D9%88%DB%8C%D8%AF&quot;&gt;دچار مشکل&lt;/a&gt; بشید رو ندارید.&lt;/p&gt;
+
+&lt;p&gt;نکته دیگری که وجود داره، هوشمندی و وقت شناسی‌ است که در سرتاسر تصمیمات این شرکت موج می‌زنه. برای مثال، درسته که بسیاری شاکی‌ از عدم ارائه محصول جدید از سمت این شرکت هستند، اما با این حال نباید فراموش کرد که محصولی مشابه با همین آیپد را هشت سال قبل‌ از معرفی آیپد بیل گیتس معرفی کرده بود. اپل متوجه است که برای به بار نشستن یک ایده خوب، زمانبندی مناسب و رساندن محصول به سر حد بلوغ بیش از هرچیز دیگری اهمیت داره.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>زیبا کردن کد با NRefactory</title>
+   <link href="http://fa.arashTaher.ir/coding/programming/2013/09/27/pretty-print.html"/>
+   <updated>2013-09-27T23:18:46+03:30</updated>
+   <id>http://fa.arashTaher.ir/coding/programming/2013/09/27/pretty-print</id>
+   <content type="html">&lt;p&gt;همانطور که در قبل ذکر آن رفت، یکی‌ از کاربرد‌های NRefactory در Reformat کردن یا اصطلاحا &lt;a href=&quot;http://en.wikipedia.org/wiki/Prettyprint&quot;&gt;PrintPrint&lt;/a&gt; کردن کد است. از این قابلیت در Code Generation می‌توان بسیار سود برد.
+ما به راحتی‌ با کنار گذاشتن دغدغه مربوط به چینش کد، قطعات مورد نیاز را به هم میچسبانیم. در نهایت مثلا کدی خواهیم داشت در یک خط. حال این کد دستی‌ تولید شده را به NRefactory میدهیم و خروجی‌ با ظاهر مناسب و مورد نظر ( مثلا KRStyle ) را تحویل میگیریم.&lt;/p&gt;
+
+&lt;p&gt;یک نمونه ساده از پیاده سازی چنین عملیاتی را میتوانید از &lt;a href=&quot;http://ge.tt/6JuQk2o/v/3&quot;&gt;اینجا&lt;/a&gt; دانلود کنید.&lt;/p&gt;
+
+&lt;p&gt;پی‌‌‌نوشت : باینری‌ها را به صورت جدا و در &lt;a href=&quot;http://ge.tt/6JuQk2o/v/2&quot;&gt;اینجا&lt;/a&gt; آپلود کرده‌ام که اگر کد‌های قبلی‌ رو دانلود کردین نیازی به دانلود دوباره نداشته باشید. فقط میمونه بحث Reference دادن به اونها که دیگه بر عهد خودتون.&lt;/p&gt;
+
+&lt;p&gt;اصلاحیه : نسخه قبلی‌ که نوشته بودم یه اشکالی‌ داشت؛ اینکه من اشتباها از Formatter استفاده کرده بودم. از این قابلیت بیشتر برای موارد داخل خود IDE مثل زمانی که Copy-Paste می‌کنیم یا زمانی‌ که IDE خودش برامون یک سری قسمت‌ها رو پر می‌کنه استفاده می‌شه.&lt;/p&gt;
+
+&lt;p&gt;در رابطه با کاری که ما می‌خواهیم انجام بدیم، روش درست استفاده از Output visitor‌ها هستش. به این صورت که اول کد رو پارس می‌کنیم، سپس درخت رو میدیم به CSharpOutputVisitor و ... بوم !&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>گفتی NRefactory چی بود ؟</title>
+   <link href="http://fa.arashTaher.ir/fa/programming/2013/09/27/what-was-nrefactory.html"/>
+   <updated>2013-09-27T22:58:42+03:30</updated>
+   <id>http://fa.arashTaher.ir/fa/programming/2013/09/27/what-was-nrefactory</id>
+   <content type="html">&lt;p&gt;همانطور که در &lt;a href=&quot;http://arashthr.wordpress.com/2013/09/22/nrefactory/&quot;&gt;پست قبل&lt;/a&gt; هم به آن اشاره شد &lt;a href=&quot;https://github.com/icsharpcode/NRefactory&quot;&gt;NRefactory&lt;/a&gt; یکی‌ از پروژه‌های جانبی &lt;a href=&quot;http://laputa.sharpdevelop.net/&quot;&gt;SherpDevelop&lt;/a&gt; می‌باشد. SharpDevelop در کنار پروژه دیگری موسوم به &lt;a href=&quot;http://monodevelop.com/&quot;&gt;MonoDevelop&lt;/a&gt; دو مورد از جایگزین‌های Open source برای Visual Studio محسوب میشوند که از پارسر Mono برای پارس و کامپایل کردن کد‌های سی‌ شارپ استفاده می‌کند.&lt;/p&gt;
+
+&lt;p&gt;استفاده از این کتابخانه در محیط این IDE بسیار متنوع بوده، برای مثال می‌توان از استفاده‌های این کتابخانه برای ایجاد قابلیت &lt;a href=&quot;http://en.wikipedia.org/wiki/Intellisense&quot;&gt;IntelliSense&lt;/a&gt; ( تشخیص و تکمیل و تصحیح سینتکس ) و یا &lt;a href=&quot;http://en.wikipedia.org/wiki/Prettyprint&quot;&gt;PrettyPrint&lt;/a&gt; و Reformat کردن کد را نام برد.&lt;/p&gt;
+
+&lt;h2&gt;NRefactory ، پارسری برای سی‌ شارپ :&lt;/h2&gt;
+
+&lt;p&gt;****از نظر تکنیکی‌ کتابخانه NRefactory یک Front-end parser برای سی‌ شارپ محسوب میشود. این کتابخانه با پارس کردن کد‌های یک برنامه به زبان سی‌ شارپ و یا ویژوال بیسیک، Abstract Syntax Tree مرتبط با آن کد را در اختیار ما قرار میدهد. علاوه بر این NRefactory این قابلیت را داشت که گره‌های موجود در این درخت را Resolve کند و Semantic آنها را نیز در اختیار ما بگذرد.&lt;/p&gt;
+
+&lt;p&gt;NRefactory پروژه‌ای با تقریبا صد هزار خط کد برنامه سی‌ شارپ است. به رغم حجیم بودن کد اما، این پروژه هم همانند بسیاری از پروژه‌های اپن سورس دیگر، تقریبا مستندات خاصی‌ برای آن وجود ندارد. با این وجود سه هزار و اندی unit test که در سورس اصلی‌ برنامه وجود دارد، منبع بسیار مناسبی برای آشنایی با چند و چون کار با این کتابخانه وسیع است. هرچند در ابتدا ارتباط برقرار کردن با این نوع از مستند‌سازی و استفاده از آن کمی‌ مشکل مینماید، اما پس از چندی این منبع عظیم و به روز، مناسب‌ترین و مطمئن‌ترین مکان برای آشنایی با قابلیت‌های کتابخانه و کم و کیف طرز کار آن تبدیل خواهد شد.&lt;/p&gt;
+
+&lt;h2&gt;چرا Roslyn نه ؟&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://msdn.microsoft.com/en-us/vstudio/roslyn.aspx&quot;&gt;Roslyn&lt;/a&gt; همانند NRefactory یک Front-end parser برای سی‌ شارپ است که طراحی و پیاده‌سازی آن توسط مایکروسافت در حال پیگیری است. از جمله مشکلاتی که این کتابخانه دارد یکی‌ Stable نبودن و نرسیدن به نسخه نهایی‌ آن است، دیگری اینکه درختی که این برنامه از پارس کردن کد در اختیار ما قرار میدهد برخلاف NRefactory درختی Immutable است و نمی‌توان توسط آن کد را دستخوش تغییر کرد. این کتابخانه بیشتر برای بررسی‌ آماری کد مناسب به نظر می‌آید.&lt;/p&gt;
+
+&lt;p&gt;برای آشنایی با چگونگی‌ کلیت کار، میتوانید &lt;a href=&quot;http://ge.tt/6JuQk2o/v/1&quot;&gt;این قطعه کد&lt;/a&gt; را دانلود و مورد برسی‌ قرار دهید. هرچند در ابتدا مطالعه این مقاله که به دست یکی‌ از نویسندگان کتابخانه NRefactory نوشت شده، و همچنین آشنایی ابتدائی با Visitor Pattern پیشنهاد میشود. ( در آینده چنانچه فرصت شده به توضیح Visitor Pattern خواهم پرداخت )&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>کیمیاگری</title>
+   <link href="http://fa.arashTaher.ir/fa/software%20engineering/2013/09/08/alchemy.html"/>
+   <updated>2013-09-08T23:59:06+04:30</updated>
+   <id>http://fa.arashTaher.ir/fa/software%20engineering/2013/09/08/alchemy</id>
+   <content type="html">&lt;p&gt;در حال حاضر و با تموم شدن پروژه قبلیم (که در آینده با تفصیل بیشتر ازش خواهم گفت) مشغول کار بر روی یک نوع Code Generator شدم (جزئیاتش خارج از حوصله این پست است).&lt;/p&gt;
+
+&lt;p&gt;پس از مشخص شدن &lt;em&gt;حدودی&lt;/em&gt; صورت پروژه شروع کردم با تمام وجود کلنجار رفتن برای بیرون کشیدن یک ساختار کامل، جامع، مانع و شامل برای بنا کردن کد، یه چارچوب که بتونه تا جای ممکن امکاناتی که به ذهنم می‌رسید رو پشتیبانی‌ کنه، در واقع همون Design که تو دانشگاه بهمون یاد دادند و اینهمه روش تاکید داشتن.&lt;/p&gt;
+
+&lt;p&gt;خوب من هم به عنوان یه دانشجو تمام تلاشم رو در این راستا به کار بستم. در نظر گرفتن تمام جوانب مساله در کنار پیشبینی‌‌های مربوط به ساده‌تر کردن گسترش برنامه، بیرون کشیدن کلاس‌ها و مشخص کردن رابطه اونها و ... . باید اقرار کنم که با توجه به صورت مساله این کار در ابتدا بسیار آسون به نظر می‌رسید، اما این کارها در کامل تعجب وقت زیادی رو ازم گرفت. علاوه بر اینکه جلو رفتن در کار نه تنها باعث افزایش انگیزه نمی‌شد، که سررسیدن دائمی مهمانان ناخوانده به طراحی حاصلی نداشت جز سردرگمی و سرخوردگی.&lt;/p&gt;
+
+&lt;p&gt;خلاصه با هر مکافاتی که بود حسابم رو با خودم مشخص کردم و شروع کردم به کد زدن. پس از اینکه یه کلیتی از اونچه که در ذهنم بود رو تونستم در کد متجسم کنم، نتیجه رو به سرپرست نشون دادم و ... تبریک میگم ! کاری که من انجام داده بودم، کیلومتر‌ها با اونچه که در ذهن سرپرست بود فاصله داشت. بدترین بخش برای من این بود که یک تعداد از عملیاتی که من براشون کلی‌ &quot;تمحیداتی خاص اندیشیده بودم&quot; و وقت گذشته بودم به هیچ عنوان درد نمیخوردن و کاربرد نداشتن.&lt;/p&gt;
+
+&lt;p&gt;خوب، با کمی‌ تامل بیشتر در رابطه با این موضوع، میبینیم که چنین پیشامدی واقعا محتمل مینمود. تلاش من در قاعده و قانون بخشیدن به چیزی که ازش شناخت خوبی‌ ندارم مسلما نمیتونه من رو به جایی‌ برسونه. در واقع میشه گفت &quot;کاری که ما با نوشتن یک برنامه صدد انجام اون هستیم مثل ساختن یه ماده شیمیایی جدیده، راه برای ما مشخص نیست، نمی‌دونیم دقیقا می‌خوام به کجا برسیم و راه مناسب کدومه. تنها کاری که می‌تونیم بکنیم مرحله به مرحله جلو رفتن و Refactor کردن دائمی کد، در کنار نگاه داشتن سابقه از کارهای قبلی‌ با استفاده از Unit-Test هاست&quot;&lt;/p&gt;
+
+&lt;p&gt;اشتیاق به داشتن یه سند جامع که همه نکات سیستم در اون قرار داره و ترس ما از عوض کردن ناگهانی و وسیع کد رو می‌شه دو تا از عمده‌ترین دلایلی دونست که پیشروی توی چنین مسیری رو سخت کنه. اما این حقیقتی است. ما چطور می‌خوایم شناختی‌ همه جانب از &lt;em&gt;چیزی&lt;/em&gt; داشته باشیم که تا حالا باهاش روبرو نشدیم. کتاب Pragmatic Programmer این نکته رو این‌چنین بیان می‌کنه که : There are no final decisions . همواره باید آماده تغییر بود. در نظر نگرفتن این مسائل در نهایت نتیجش می‌شه هدر رفت وقت و هزینه. علاوه بر این، کد‌های به درد نخوره زیادی به سیستم اضافه می‌شه که صرفاً پیچیدگی‌ برنامه و شانس برای Duplication رو بالا میبره، اما همونجا می‌مونن چون میگیم &quot;شاید یه روزی به درد بخورن&quot;.&lt;/p&gt;
+
+&lt;p&gt;وقتی‌ تغییر دائمی و ناگهانی رو تونستیم به عنوان یک عنصر لاینفک در برنامه‌نویسی قبول کنیم، حالا Unit Testing به عنوان حیاتی‌ترین ابزار در پیشبرد این روش خود‌نمایی می‌کنه. روشی‌ برای مشخص کردیم حیطه تاثیر و نفوذ تغیرات جدیدی که دادیم و اینکه آیا این تغیرات اختلالی در کارکرد سابق سیستم به وجود میارن یا نه. در واقع داشتن Unit test‌های خوب به برنامه‌نویس اعتماد به نفس لازم برای عمل هر نوع تغییر بدون خرابکاری رو میده.&lt;/p&gt;
+
+&lt;p&gt;یکی‌ از مقالات پر مغزی که در این زمینه وجود داره و خوندنش پیشنهاد می‌شه &lt;a href=&quot;http://www.industriallogic.com/wp-content/uploads/2005/09/StopOverEngineering.pdf&quot;&gt;Stop Over-engineering&lt;/a&gt; نام داره. خیلی‌ کوتاه و مختصره، اما حرف‌های بسیار زیادی برای گفتن و شنیدن داره. در واقع برسی‌ تکنینکی همین حرف‌هاییست که من در اینجا زدم. یه نگاه بندازید.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Lavabit تعطیل شد</title>
+   <link href="http://fa.arashTaher.ir/fa/%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1/2013/08/15/lavabit-is-dead.html"/>
+   <updated>2013-08-15T16:17:15+04:30</updated>
+   <id>http://fa.arashTaher.ir/fa/%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1/2013/08/15/lavabit-is-dead</id>
+   <content type="html">&lt;p&gt;سرویس ایمیل &lt;a href=&quot;http://lavabit.com/&quot;&gt;Lavabit &lt;/a&gt;تعطیل شد !&lt;/p&gt;
+
+&lt;p&gt;یکی‌ دیگه از اخبار ناامید کنند این روزها. این Email service provider از معدود سرویس‌هایی‌ بود که هدف اصلی‌ خودش رو تامین امنیت داده‌های کاربر معرفی‌ میکرد. در کنارش نسبت به سایر سایت‌های مشابه که من بر‌رسی‌ کرده بودم رابط کاربری مطلوب‌تر و امکانات فنی‌ بیشتری را در اختیار می‌گذاشت. خود من زمانی‌ که دنبال یه سرویس ایمیل بودم که بتونم به راحتی‌ از طریق اسکریپت پایتون و از روی یه سیستم دیگه برای خودم میل بفرستم، از همین لوبیت استفاده کردم.&lt;/p&gt;
+
+&lt;p&gt;اما چرا این سرویس تعطیل شد ؟ در صفحه اول سایت، که بر خلاف سابق دیگه خبری از Sign in و Sign up نیست، به این صورت توضیح داده شده :
+&quot;من مجبور به گرفتن تصمیمی سخت شدم. یا مشارکت در جرم علیه مردم آمریکا و یا پشت پا زدن به تلاش تقریبا ده سال خودم با تعطیل کردن lavabit.&quot;&lt;/p&gt;
+
+&lt;p&gt;ظاهرا ماجرا از این قراره که درخواستی مبنی بر اجازه دسترسی‌ فرد ثالث به داده‌های کاربران این سایت تحمیل شده، و این شرکت هم به جای تن‌ دادن به این درخواست و افشای اطلاعات کاربرانش، کل سرویس‌ها رو shutdown کرده. به نوعی می‌شه گفت خودکشی‌ کرده .
+حساسیت این مساله زمانی‌ دوچندان می‌شه که بدونیم Snowden هم از همین سرویس برای برقراری ارتباط با خبرنگاران استفاده میکرد.&lt;/p&gt;
+
+&lt;p&gt;Levision ، موسس lavabit نوشتار خودش رو این چنین به پایان میبره که : &quot;اما این تجربه یک درس بزرگ به من آموخت؛ تا زمانی‌ که کنگره اقدامی عملی‌ انجام نداده، توصیه اکید من بر این است که هیچوقت در زمینه داده‌های شخصی‌ خود به شرکتی که به صورت فیزیکی‌ در خاک آمریکا قرار دارد اطمینان نکنید.&quot;&lt;/p&gt;
+
+&lt;p&gt;اما دلیل ناراحتی‌ از رویداد چنین حوادثی چیست ؟ تمام این اقدامات به ظاهر امنیتی نتیجه‌ای نخواهد داشت جز مصمم تر شدن مسئولان حکومت هر کشوری برای جدا کردن خودشون از این سیستم، با به وجود آوردن مفاهیمی مثل اینترنت ملی‌، و این موضوع هم خود منجر میشود به زیر سوال رفتن مفهوم اینترنت و در پس آن آزادی ارتباط و آزادی بیان.&lt;/p&gt;
+
+&lt;p&gt;Those who would sacrifice freedom for security deserve neither. — Benjamin Franklin&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>به اندازه کافی</title>
+   <link href="http://fa.arashTaher.ir/fa/%D9%86%D9%88%D8%B4%D8%AA%D8%A7%D8%B1%20%D8%B4%D8%AE%D8%B5%DB%8C/%DA%A9%D8%AA%D8%A7%D8%A8/%D8%AA%D8%AE%D8%B5%D8%B5%DB%8C/2013/08/13/goof-enough.html"/>
+   <updated>2013-08-13T21:47:57+04:30</updated>
+   <id>http://fa.arashTaher.ir/fa/%D9%86%D9%88%D8%B4%D8%AA%D8%A7%D8%B1%20%D8%B4%D8%AE%D8%B5%DB%8C/%DA%A9%D8%AA%D8%A7%D8%A8/%D8%AA%D8%AE%D8%B5%D8%B5%DB%8C/2013/08/13/goof-enough</id>
+   <content type="html">&lt;p&gt;در پست قبل یک مختصری راجع به کتاب Pragmatic Programmer گفتم و اینکه به نظرم چقدر به زیبایی یک سری از مفاهیم پایه‌ای رو که به نظر هر برنامه‌نویسی باید بدونه مطرح کرده. تصمیمم بر این شد که در کنار مطالعه کتاب پست‌هایی‌ مرتبط با بخش‌هایی‌ که به نظرم جالبتر می‌رسند بذارم.&lt;/p&gt;
+
+&lt;p&gt;یکی‌ از این بخش‌ها که الان می‌خوام ازش بگم Good-enough software هستش. کل این قسمت رو در اولین جملش می‌شه به صورت خلاصه دید : معمولا تلاش برای بهتر نتیجه ندارد جز تضییع آنچه خوب است.
+این عبارت یه جورایی من رو یاد جمله تا حدودی مرتبط و معروف دونالد کنوث میندازه که Premature optimization is the root of all evil &lt;strong&gt; .&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;بحث این بخش در یک کلام Requirment است. حرف در اینجا بر سر اولویت قرار دادن بی‌ چون و چرای نیاز‌های کاربر و شرایط مساله است. اینکه اصل برنامه و کاربردهای آن را زیر خروار‌ها feature‌های اضافی مدفون نکنیم و ...&lt;/p&gt;
+
+&lt;p&gt;خوب این ماجرا در نگاه اول بدیهی به نظر میرسه، اما واقعا نمیدونم چرا عمل به اون تا این حد دور از دسترس است. برای مثال یکی‌ از قربانیان بزرگ عدم توجه به نیاز کاربر، خود من هستم در دانشگاه، زمانی‌ که کاربر برنامه من استاد بود.
+مساله‌ای که من باید بهش توجه می‌کردم و نکردم نوع درخواست استاد از پروژه‌ای است که باید بهش تحویل داد : برنامه‌ای سرشار از امکانات ! و خوب من هیچوقت نتونستم اونطور که باید و شاید به اون جامعه عمل بپوشونم. چرا که برای من همواره مهمتر از Razzle-Dazzle ، کار کردن و درست کار کردن برنامم بود، و الان میگم که اشتباه کردم.&lt;/p&gt;
+
+&lt;p&gt;کد‌هایی‌ که قرار نیست هیچوقت عملیاتی بشه، بر‌رسی‌های کاملا سطحی و به چالش نکشیدن برنامه، همگی‌ شرایطی است که باید در نظر گرفته شود. بر این مبنا حتی چپاندن امکانات اضافی و زیبایی‌های بصری اضافی و بعضا آزار‌دهنده به برنامه از جمله کارهاییست که یک دانشجوی باهوش موظف به انجام دادن اونهاست برای کسب رضایت حداکثری مشتری، به رغم آگاهی‌ از نادرستی این کار، حداقل با توجه به تجربه دانشجویی من :)&lt;/p&gt;
+
+&lt;p&gt;الان که بحث به مدیریت نیاز کاربر کشیده شد و انجام صرف آنچه که ضروری است، خیلی‌ علاقمند شدم در آینده راجع به مفهومی که خیلی‌ می‌تونه نزدیک به همین موضوع باشه هم بگم : YAGNI !&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>پنجره‌های شکسته</title>
+   <link href="http://fa.arashTaher.ir/fa/%D9%86%D9%88%D8%B4%D8%AA%D8%A7%D8%B1%20%D8%B4%D8%AE%D8%B5%DB%8C/%DA%A9%D8%AA%D8%A7%D8%A8/%D8%AA%D8%AE%D8%B5%D8%B5%DB%8C/2013/08/12/broken-windows.html"/>
+   <updated>2013-08-12T23:16:19+04:30</updated>
+   <id>http://fa.arashTaher.ir/fa/%D9%86%D9%88%D8%B4%D8%AA%D8%A7%D8%B1%20%D8%B4%D8%AE%D8%B5%DB%8C/%DA%A9%D8%AA%D8%A7%D8%A8/%D8%AA%D8%AE%D8%B5%D8%B5%DB%8C/2013/08/12/broken-windows</id>
+   <content type="html">&lt;p&gt;به تازگی و به توصیه یکی‌ از آشنایان اهل فن مشغول مطالعه کتاب Pragmatic Programmer شدم. تا الان که دو سه فصلش رو خوندم، کتاب به نظرم بسیار دلپذیر و کاربردی اومده. نکاتی‌ که به خصوص برای من دانشجو که درست کد زدن و مراقبت از اون کد بهم یاد داده نشده (!) به شدت به درد بخور می‌تونه باشه .&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://arashthr.files.wordpress.com/2013/08/progmatic.jpg&quot;&gt;&lt;img src=&quot;http://arashthr.files.wordpress.com/2013/08/progmatic.jpg&quot; alt=&quot;progmatic&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;می‌خوام در ذکر ارزش‌های این کتاب پا رو کمی‌ از این فراتر بذارم و اشاره کنم به اینکه قواعدی که توی این کتاب ازشون ذکر رفته، نه تنها مفید و مؤثر در زمینه کنترل پیچیدگیهای نرم‌افزار، که در زمینه مدیریت هرگونه ساختار منظمی می‌تونه به کار بره.&lt;/p&gt;
+
+&lt;p&gt;به عنوانه مثال در فصل اول و در بخش Software Entropy برای بررسی‌ یکی‌ از مهمترین دلایلی که در نهایت منجر به software rot ( استهلاک نرم‌افزار ؟ ) می‌شه، اشاره میکنه به مساله ای مشابه در زمینه پیکربندی و فضای درون شهری؛ اینکه چطور و چرا برخی‌ نقاط از شهر تمیز و زیبا است، در حالی‌ که برخی‌ نقاط دیگه از فرسودگی مزمن رنج میبرن ؟ تفاوت در چیست ؟&lt;/p&gt;
+
+&lt;p&gt;جواب کتاب خیلی‌ ساده است : یک پنجره شکسته !&lt;/p&gt;
+
+&lt;p&gt;وقتی‌ یک پنجره شکسته برای مدتی‌ طولانی تعمیر نشه، منجر به ایجاد حس متارکه می‌شه. اینکه متولی وجود نداره و به اصطلاح &quot;هرکی‌ به هرکیه&quot;. این تفکر بین افراد به تریج گسترش پیدا میکنه و ...&lt;/p&gt;
+
+&lt;p&gt;جدای از راه حل‌ها و شرایط خاصی‌ که برای نرم‌افزار وجود داره و در کتاب به تشریح اونها پرداخت می‌شه، فکر کنم الان بتونید ببینید که این موضوع تا چه حد در ساختار‌های اطراف ما صدق می‌کنه. بی‌توجهی‌های کوچکی در سرانجام مثل گوله برفی قل میخورند و قل میخورند، نادیده گرفته میشوند و نادیده گرفته میشوند، تا اینکه کنترل اونها به طور کامل غیر ممکن میشود.&lt;/p&gt;
+
+&lt;p&gt;کتاب راه‌حل ساده‌ای رو برای پیشگیری از موضوع پیشنهاد کرده : مشکلات رو به محض پیدا کردن حل کنیم، و یا اگر امکانات کافی‌ برای حل آن را نداریم لاقل کاری کنیم که ضعف در این نقاط همواره به چشم بیاد. در مورد نرم‌افزار میتونیم یک TODO اضافه کنیم، آن قسمت را کامنت کنیم، پیغام &quot;Not Implemented&quot; چاپ کنیم و ...&lt;/p&gt;
+
+&lt;p&gt;پس، اگر بخواهیم در یک جمله جمع بندی داشته باشیم باید گفت که :
+Don`t Live With Broken Windows&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>فاجعه هزارتو</title>
+   <link href="http://fa.arashTaher.ir/fa/%D8%AA%D8%AE%D8%B5%D8%B5%DB%8C/2013/08/05/maze-fiasco.html"/>
+   <updated>2013-08-05T20:18:27+04:30</updated>
+   <id>http://fa.arashTaher.ir/fa/%D8%AA%D8%AE%D8%B5%D8%B5%DB%8C/2013/08/05/maze-fiasco</id>
+   <content type="html">&lt;p&gt;امسال برای عید نوروز تصمیم گرفتم به جای ارسال تبریکات متعارف تحویل سال، یکی‌ از برنامه‌های کوچکی رو که داشتم کمی‌ دستکاری کنم و برای دوستان و آشنایان بفرستم. این برنامه یک هزار توی ساده بود که به زبان سی‌ شارپ پیاده سازی شده بود.&lt;/p&gt;
+
+&lt;p&gt;خوب، برنامه رو اصلاح کردم، وقتی‌ دیدم همه چیز به نظر درست میرسه، اون رو برای چند تا از دوستان ( و همینطور چند تا از اساتید که کمی‌ ذوق و قریحه داشتن ) ارسال کردم.
+چند روز بعد که نظر یکی‌ از دوستان رو راجع به برنامه پرسیدم، در کامل تعجب گفت : &quot;والا من خوب نفهمیدم چیکار می‌کنه ؟&quot;
+گفتم : &quot;منظورت چیه چیکار می‌کنه ؟ خوب هزار تو بود دیگه&quot;.
+پس از کمی‌ کند و کاو متوجه اشتباه وحشتناکی‌ شدم که در برنامه برنامه رخ داده بود : قرار بود با هر بار قرار گرفتن موس روی بلاک‌ها، موس به خانه اول برگرده، اما به رغم اینکه در ابتدا این موضوع درست پیاده سازی شده بود، پس از ‌اعمال تغیرات جدید دیگه کار نمیکرد.&lt;/p&gt;
+
+&lt;p&gt;اما این مشکل از کجا آب میخورد ؟ چطور من متوجه نشده بودم ؟
+درسته که در ابتدا من برنامه رو تست کرده بودم و مشکلی‌ وجود نداشت، اما در ادامه از اونجایی‌ که تغییرات کم بود و در تعداد معدود تستی که انجام دادم فقط در مسیر درست حرکت می‌کردم، اصلا حواسم به این نبود که باز هم مسیر غلط رو تست کنم. فقط از مسیر درست حرکت می‌کردم و ... البته اگر راستش رو بخواید تعجب کرده بودم که چطور اینقدر دارم خوب بازی می‌کنم !&lt;/p&gt;
+
+&lt;p&gt;خوب، منظور ؟ لاقل در مورد من که روش مورد علاقم برای برنامه نویسی در &lt;em&gt;پروژه‌های کوچک&lt;/em&gt; Code and Fix هستش&lt;a href=&quot;http://arashthr.files.wordpress.com/2013/08/maze_fiasco.png&quot;&gt;&lt;img src=&quot;http://arashthr.files.wordpress.com/2013/08/maze_fiasco.png&quot; alt=&quot;maze_fiasco&quot; /&gt;&lt;/a&gt;، داشتن و تست کردن boundary values ، نگهداری باگ‌هایی‌ که در طی کار بهشون بر میخورم و اجرای مجدد اونها پس از ‌اعمال هر تغییری هرچند کوچک، برای داشتن یک برنامه مطمئن ضروری است.
+در کنارش جا داره به خودمون یادآوری کنیم که هرچقدر هم از دیدن درست کار کردن کد‌مون لذت می‌بریم، در فاز تست به جای تحسین عملیاتی که به وضوح درست انجام میده، باید تا جایی‌ که می‌شه بی‌رحمانه بهش حمله کنیم. چون الان دیگه میدونیم که یک چنین افتضاحی نه تنها باعث آبرو ریزی می‌شه، بلکه می‌تونه باعث بشه از این پس ایمیل‌ات پیش خیلی‌ها به عنوان اسپم در نظر گرفته بشه.&lt;/p&gt;
+
+&lt;p&gt;پی‌ نوشت : هرچند در مرحله اول اگر من خودم مخاطب بودم به هیچ وجه حاضر نمیشدم ایمیل ارسالی‌ که داخلش کد اجرائی داره رو ( حتی اگر سورس هم کنارش باشه ) دانلود کنم، چه برسه به اجرا !&lt;/p&gt;
+
+&lt;p&gt;ضمیمه : کد رو هم قرار در &lt;a href=&quot;http://ge.tt/6JuQk2o/v/0?c&quot;&gt;اینجا&lt;/a&gt; میدم، درست کردنش کار چند دقیقه است :)&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>نقطه آبی رنگ پریده</title>
+   <link href="http://fa.arashTaher.ir/fa/%D8%B9%D9%84%D9%85%DB%8C/2013/07/25/pale-blue-dot.html"/>
+   <updated>2013-07-25T18:30:20+04:30</updated>
+   <id>http://fa.arashTaher.ir/fa/%D8%B9%D9%84%D9%85%DB%8C/2013/07/25/pale-blue-dot</id>
+   <content type="html">&lt;p&gt;کارل ساگان در کتاب «نقطه رنگ‌پریده آبی» درباره این عکس می‌نویسد:
+«ما موفق شدیم که این عکس را از عمق فضا بگیریم و اگر شما به آن نگاه کنید ، یک نقطه می‌بینید.&lt;/p&gt;
+
+&lt;p&gt;به آن نقطه بار دیگر نگاه کنید. آنجاست. آنجا خانه است. ما آنجاییم. هر کسی که دوست داریم ، هر کسی را که می‌شناسیم ، هر کسی که از او تا به حال شنیده‌ایم ، هر انسانی که تا به حال زیسته است ، ‌روی همین نقطه به سر برده است.&lt;/p&gt;
+
+&lt;p&gt;مجموع همه خوشی‌ها و رنج‌‌های ما ، هزاران آموزه‌ اقتصادی ، ایدئولوژی‌ و مذاهب دلگرم‌کننده ، هر شکارچی و کاوشگری ، هر قهرمان و ترسویی ، هرآفریننده و نابودکننده تمدنی ، هر شاه و رعیتی ، هر زوج جوان عاشقی ، هر کودک امیدواری ، هر مادر و پدری ، هر مخترع و مکتشفی ، هر معلم اخلاقی ، هر سیاستمدار فاسدی ، هر ابرستاره‌ای ، هر رهبر عالی‌رتبه‌ای و هر معصوم و گناهکاری در تاریخ نوع بشر روی همین نقطه غبارگونه معلق در پرتو آفتاب ، تجلی یافته‌ و زیسته‌ است.&lt;/p&gt;
+
+&lt;p&gt;[caption id=&quot;attachment_305&quot; align=&quot;alignleft&quot; width=&quot;181&quot;]&lt;a href=&quot;http://arashthr.files.wordpress.com/2013/07/530px-palebluedot.jpg&quot;&gt;&lt;img src=&quot;http://arashthr.files.wordpress.com/2013/07/530px-palebluedot.jpg?w=258&quot; alt=&quot;530px palebluedot&quot; /&gt;&lt;/a&gt; 530px palebluedot[/caption]&lt;/p&gt;
+
+&lt;p&gt;زمین جایگاه کوچکی در گستره بیکران گیتی است. به رودهای خونی فکر کنید که به وسیله ژنرال‌ها و امپراتور‌ها جاری شدند تا آنها بتوانند برای زمانی کوتاه ، آقای قسمتی از این نقطه شوند. به اعمال وحشیانه‌ای فکر کنید که به وسیله ساکنان یک گوشه از این نقطه بر سر ساکنان یک گوشه دیگر به سختی قابل تشخیص آمد‌. چقدر کج‌فهمی‌های آنها زیاد بود ، چقدر برای کشتن یگدیگر حریص بودند ، چقدر نفرتشان عمیق بود. وضعیتمان ، تصور مهم بودنمان ، تصور اینکه حق ویژه‌ای در عرصه گیتی داریم ، این نقطه رنگ‌پریده را به چالش کشیده است.&lt;/p&gt;
+
+&lt;p&gt;سیاره ما ، نقطه کوچکی در سیاهی عظیم احاطه‌کننده‌اش است. در همه این بیکرانگی ، چیزی نیست که بتواند از جایی برای کمک از شر خودمان به یاری‌مان بیاید. این مهم بر عهده خود ماست. گفته می‌شود که ستاره‌شناسی باعث فروتنی می‌شود و من می‌خواهم اضافه کنم که ستاره‌شناسی باعث خودسازی می‌شود.
+به باور من شاید هیچ برهانی درباره نابخردی غرور نوع بشر ، بهتر از این تصویر دور از دنیای کوچکمان نباشد. از نظر من ، این تصویر ، بر مسئولیت ما برای برخورد مهربانه و مشفقانه با یکدیگر تأکید می‌کند و همچنین بر گرامی داشتن و محافظت از این نقطه آبی رنگ پریده ، تنها خانه‌ای که تا به حال شناخته‌ایم.»&lt;/p&gt;
+
+&lt;p&gt;برگرفته از وبلاگ یک &lt;a href=&quot;http://1pezeshk.com/archives/2007/09/post_578.html&quot;&gt;پزشک&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>دکسپات</title>
+   <link href="http://fa.arashTaher.ir/%D8%B9%D9%85%D9%88%D9%85%DB%8C/2013/07/19/dexpot.html"/>
+   <updated>2013-07-19T01:26:53+04:30</updated>
+   <id>http://fa.arashTaher.ir/%D8%B9%D9%85%D9%88%D9%85%DB%8C/2013/07/19/dexpot</id>
+   <content type="html">&lt;p&gt;یکی‌ از بزرگترین ضعف‌های ویندوز، لاقل از نظر من که با کار در محیط گنوم بیشتر خو گرفتم، سر درگمی در پس پنجره‌هاست.&lt;/p&gt;
+
+&lt;p&gt;من به شخصه موقع کار پنجره‌های زیادی رو باز می‌کنم : مرورگر، موسیقی، virtualbox, IDE و کلی‌ چیز دیگه. خوب، مدیریت کردن همه اینها از طریق یه نوار وظیفه تا حدودی ناممکن می‌شه؛ دائماً مجبوری دست از کار اصلیت بکشی و مشغول سر و سامون دادن به پنجره‌ها بشی‌.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://arashthr.files.wordpress.com/2013/07/dexpot_en.png&quot;&gt;&lt;img src=&quot;http://arashthr.files.wordpress.com/2013/07/dexpot_en.png&quot; alt=&quot;dexpot_en&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;یک راه حل فوق‌العاده و به شدت اعتیاد آور برای این مشکل استفاده از Virtual desktop یا Workspace هست. این کامپوننت به صورت پیش فرض در محیط‌های گنوم و KDE موجود و میتونید برای ویندوز هم نصبش کنید. طرز کار به این صورته که شما به جای یک دسکتاپ میتونید (مثلا) چهار تا دسکتاپ مجزا داشته باشید. حالا تو یکی‌ میتونید به کار اصلیتون بپردازین، مرورگر رو تو یکی‌ دیگه باز بذارید، آهنگا‌ها تو یکی‌ دیگه و ... .&lt;/p&gt;
+
+&lt;p&gt;این کار علاوه بر نظم دادن به محیط کار و فکرتون، می‌تونه سرعتتون رو هم چندین برابر کنه. برنامه‌ای که من برای ویندوز پیشنهاد می‌کنم &lt;a href=&quot;http://www.dexpot.de/index.php?lang=en&quot;&gt;Dexpot&lt;/a&gt; اسم داره. به سادگی‌ نصب می‌شه و پس از نصب با زدن کلید Alt+Num میتونید بین workspace‌ها جابجا بشید.&lt;/p&gt;
+
+&lt;p&gt;نصب کنید و استفاده کنید.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>کوکی</title>
+   <link href="http://fa.arashTaher.ir/%D8%B9%D9%85%D9%88%D9%85%DB%8C/2013/04/23/syn-cookie.html"/>
+   <updated>2013-04-23T21:22:27+04:30</updated>
+   <id>http://fa.arashTaher.ir/%D8%B9%D9%85%D9%88%D9%85%DB%8C/2013/04/23/syn-cookie</id>
+   <content type="html">&lt;p&gt;Syn-Cookie روشی‌ است که به کار گرفته میشود به منظور مقابل با حمله Syn-Flooding . این روش از حمله از پروسس شکل‌گیری ارتباط بین Client و Server ، که یک عملیات سه‌جانبه، معروف به Three-way Handshake است سؤ استفاده می‌کند تا با ایجاد تعداد زیادی ارتباط باعث مشغول نگاه داشتن سرور ( و یا Crash آن ) شود. این روش‌ها هم اکنون دیگر چندان کاربردی نیست، به لطف تکنیک‌هایی‌ مثل Syn-cookie .&lt;/p&gt;
+
+&lt;p&gt;ا&lt;a href=&quot;http://arashthr.files.wordpress.com/2013/04/cookie.jpg&quot;&gt;&lt;img src=&quot;http://arashthr.files.wordpress.com/2013/04/cookie.jpg&quot; alt=&quot;cookie&quot; /&gt;&lt;/a&gt;ین کوکی‌ها هیچ مشکل امنیتی متوجه Host یا Client نمیکنند و هدف آنها جلوگیری از ضایع شدن منابع سمت هاست است . این نوع از حملات بر مبنای اصول Tree-way Handshake کار می‌کند . به این صورت که اول Client یک درخواست اتصال به هاست میفرستد، که به این درخواست پیغام تطابقی یا SYN میگویند . هنگامی که هاست این پیغام را دریافت می‌کند، در جواب پیغام SYN-ACK را ارسال می‌کند . با ادامه پیدا کردن این روند در نهایت دو طرف به هم وصل میشوند. مشکلی‌ که وجود دارد این است که معمولا سرور‌ها صف کوچکی برای نگاه داری درخواست‌های SYN دارند، چیزی در حدود هشت تا در هر زمان .&lt;/p&gt;
+
+&lt;p&gt;یکی‌ از روش‌های شناخته شده DoS attack که در بالا ذکر شد، با نام Syn-Flooding از همین واقعیت برای حمله استفاده می‌کند. تعداد زیادی پیغام SYN برای سرور ارسال میشود، سرور در جوان SYN-ACK میفرستد، اما پیغام ACK توسط Client ارسال نمی‌شود و این موضوع باعث میشود یکی‌ از خانه‌های صف SYN مشغول بماند. چنانچه همه چیز درست پیش برود، تمام صف با این درخواست‌های بی‌ جواب پر خواهد شد و سرور دیگر قادر به پاسخگویی به کاربر جدید نخواهد بود.&lt;/p&gt;
+
+&lt;p&gt;راه حل ارائه شده برای این نوع از حملات SYN-Cookie است . در اینجا چنین تظاهر میشود که هاست صفی بزرگتر از آنچه که واقعا دارد در اختیار دارد . در صورت رخداد حمله، یک SYN-ACK برای Client ارسال می‌کند، سپس با ساخت یک SYN-Cookie مرتبط با این درخواست ، SYN را از صف بیرون میرود. به این ترتیب این‌طور به نظر می‌رسد که اصلا درخواست SYN دریافت نشده است . هنگامی که پیغام SYN-ACK با SYN-Cookie توسط Client دریافت شد، حال میتواند جواب ACK متناسب را باتوجه به SYN-Cookie که اشاره گری به SYN-ACK اصلی‌ است ارسال کند . سرور میتواند از این داده‌ها برای ساخت SYN-ACK اولیه استفاده کند . حالا Client میتواند به هاست متصل شده و به رد و بدل داده بپردازد . در عین حال از مشغول شدن صف SYN هم جلوگیری شده است .&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>حداقل نصبش کن</title>
+   <link href="http://fa.arashTaher.ir/%D8%B9%D9%85%D9%88%D9%85%DB%8C/2012/03/16/dive-into-linux.html"/>
+   <updated>2012-03-16T15:48:33+03:30</updated>
+   <id>http://fa.arashTaher.ir/%D8%B9%D9%85%D9%88%D9%85%DB%8C/2012/03/16/dive-into-linux</id>
+   <content type="html">&lt;p&gt;یکی‌ از بزرگترینِ کابوس‌ها در شروع به استفاده از لینوکس ، نصب کردنش هست .
+شاید ده سال پیش اینطوری بوده ، اما الان دیگه جدّا اینطور نیست . به راحتی‌ ، یه کم فضا ته هاردتون خالی‌ می‌کنید ، و لینوکس ساکت و بی‌ سر صدا میره اونجا ، جا خوش می‌کنه .&lt;/p&gt;
+
+&lt;p&gt;برای لذت بخش تر بودن تجربتون از لینوکس ، پیشنهاد می‌کنم ، نه روی ماشین مجازی ، که به عنوان یه سیستم عامل مستقل نصبش کنید .
+در ادامه یه لینک گذشتم . با دنبال کردن لینک به یک پی‌ دی اف می‌رسید که مرحله به مرحله ، همراه با شکل بهتون میگه چطور میتونید لینوکس نصب کنید .&lt;/p&gt;
+
+&lt;p&gt;پس همین الان ، پی‌ دی اف رو دانلود کنید ، یه توزیع از لینوکس ( ترجیحا اوبونتو ، مینت یا فدورا ) رو گیر بیارید و شروع کنید .&lt;/p&gt;
+
+&lt;p&gt;پی‌ نوشت : از اونجا آدم عاقل همیشه به فکر پیشگیریه ، پیشنهاد می‌شه قبل از نصب ، از اطلاعات مهمتون یه پشتیبان تهیه کنید :-)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://ge.tt/1zpjJrE&quot;&gt;Guide to install Linux , By Emad CT&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>چرا Emacs</title>
+   <link href="http://fa.arashTaher.ir/%D8%B9%D9%85%D9%88%D9%85%DB%8C/2012/01/26/why-use-emacs.html"/>
+   <updated>2012-01-26T01:16:21+03:30</updated>
+   <id>http://fa.arashTaher.ir/%D8%B9%D9%85%D9%88%D9%85%DB%8C/2012/01/26/why-use-emacs</id>
+   <content type="html">&lt;p&gt;کامنتی که در رابطه با یکی‌ از پست‌های سایت Linux Review گذشتم ، اینکه چرا اساسا چرا بریم سراغ یه چی‌ Emacs مثل وقتی‌ IDE کلی‌ وجود داره ...&lt;/p&gt;
+
+&lt;p&gt;بذارید اول یه کم خطوط رو مشخص کنیم ...
+یه زمانی‌ شما میخوای کارت راه بیفته ، دردسر هم نداشته باشی‌ ، میری سراغ ویندوز . یک سری محدودیت داره ، اما کارت رو در نهایت لنگ نمیذاره . این از دوستانی که میگن به چه درد می‌خوره . اگر دارین دنبال دردی میگردین که لینوکس ازتون دوا کنه بدونید که خیلی‌ چیزی پیدا نمیکنید . دردی دوا نمی‌کنه که هیچ مسلما همه دیدیم لینوکس کار‌هایی‌ رو که ساعت‌ها درگیر رفع یه مشکل از سیستم یا پیدا کردن یه جایگزین واسه یه نرم افزار ویندوزی و یا ... میشن .
+همین الان یه توقف بکنید و فکر کنید که پس ما چرا داریم از لینوکس استفاده میکنی‌ ...&lt;/p&gt;
+
+&lt;p&gt;استالمن وقتی‌ می‌خواد گنو رو تعریف کنه میگه که &quot;کل پروژه در واقع یک هک بزرگه، کاری بزرگ از سر هوشمندیِ شورشی و بازیگوشانه برای بهتر کردن جامعه&quot;&lt;/p&gt;
+
+&lt;p&gt;من به شخصه بعد از چند سال کار کردن با لینوکس ( و ایام اخیر به طور مداوم بدون ویندوز ، به جز یک بار برای بازی لیمبو :) میگم : من با لینوکس کار می‌کنه چون لذت بخشه ، چون fun-e، چون باعث می‌شه فکر کنی‌ ، با لینوکس کار کردن درست مثل کتاب خوندنه ، مثل موسیقی گوش دادنه . آقا لینوکس حال میده . هوشمندی تو طراحی تک تک عناصرش به چشم می‌خوره و مطمئن باشید شمایی‌ که با لینوکس کار می‌کنید ذهن بسیار بسیار بازتری دارید نسبت به کسی‌ که ویندوز باهاش کار می‌کنه !
+اما کار به همین سادگی‌‌ها هم نیست . در رابطه با لینوکس یه جمله خوندم که این رو هروقت بحث می‌شه میگم : Linux is hard to lean, easy to use
+برادر تویی‌ که پشت بیشتر از هواپیما ملخی ننشستی حالا میخوا‌ی با دو ساعت تمرین یه F-35 برونی ؟ نه بابا !
+نرم‌افزار‌های این بستر هم از این قاعده مستثنی نیستن . تا چند سال از VI به عنوان ویرایشگرِ صرف استفاده می‌کردم . اما الان چند وقتی‌ هست با کلی‌ این‌ور اونور کردن ، کد‌های سی‌ و پایتون‌ام رو کلا تو VIM میزنم و برای من واقعا جذابه . حرکت روون دست روی کیبورد ، عدم نیاز به موس ، قابلیت شخصی‌ سازی کردن و خیلی‌ چیز‌های دیگه ( خیلی‌ مفصل ) مهمتر از همه اینکه برای انجام هر کار باید اول فکر کنی‌ ! ( این قابلیت هر روز داره کمتر و کمتر می‌شه )
+خلاصه اینکه لینوکس و برنامه‌های تحت این بستر چیزی فراتر از برنامه‌هایی‌ خیلی‌ خوب هستن و اینکه Linux is Fun&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://feedproxy.google.com/~r/LinuxReview/~3/5i2In_VOLzc/&quot;&gt;http://feedproxy.google.com/~r/LinuxReview/~3/5i2In_VOLzc/&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>ام-اس</title>
+   <link href="http://fa.arashTaher.ir/%D8%B9%D9%85%D9%88%D9%85%DB%8C/2011/12/26/microsoft.html"/>
+   <updated>2011-12-26T23:19:08+03:30</updated>
+   <id>http://fa.arashTaher.ir/%D8%B9%D9%85%D9%88%D9%85%DB%8C/2011/12/26/microsoft</id>
+   <content type="html">&lt;p&gt;بعد به من میگن چرا میگی‌ مایکروسافت فلان، مایکروسافت بهمان .&lt;/p&gt;
+
+&lt;p&gt;تو رو خدا دو سه نمونه رو ببینید :&lt;/p&gt;
+
+&lt;p&gt;Browser زده، اسمش رو گذاشته Internet Explorer !
+یه سیستم عامل زده ( D: ) که توش پنجره‌های مکینتاش رو کپی کرده، اسمش رو گذاشته Windows !
+یه File System جدید ارائه داده، اسمش رو گذاشته NTFS : New Technology File System !
+یه برنامه داره برای راه انداختن Distributed File System ، اسمش رو گذاشته Distributed File Systems !&lt;/p&gt;
+
+&lt;p&gt;و اما در سمت دیگر ...
+GNU : GNU&#39;s not UNIX&lt;/p&gt;
+
+&lt;p&gt;Firefox ! what is this all about
+Ubuntu :|
+SuSE : No one knows how to exactly pronounce it
+and so on ...&lt;/p&gt;
+
+&lt;p&gt;البته نه اینکه قصد ما کم ارزش نشون دادن کارهای بعضا بزرگی باشه که مایکروسافت انجام داده، اما، خب یه کم ریسک وخلاقیت هم خوب چیزیه !&lt;/p&gt;
+
+&lt;p&gt;پی‌ نوشت : هرچند اشاره هم بکنیم که هروقت این کمپانی دل به دریا می‌زنه و اسم‌هایی‌ نوآورانه مثل مترو و SkyDrive انتخاب می‌کنه، مشکلات حقوقی امانش نمیدن و ...&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>فیسبوک</title>
+   <link href="http://fa.arashTaher.ir/%D8%B9%D9%85%D9%88%D9%85%DB%8C/2011/09/11/why-not-facebook.html"/>
+   <updated>2011-09-11T23:31:19+04:30</updated>
+   <id>http://fa.arashTaher.ir/%D8%B9%D9%85%D9%88%D9%85%DB%8C/2011/09/11/why-not-facebook</id>
+   <content type="html">&lt;p&gt;داشتم چرخ میزدم، رسیدم یه جا که یه بنده خدایی درباره فیس بوک، کامنتی گذاشته به شرح زیر
+&quot;در کل این بحث نقض جریم خصوصی خیلی حرف بی موردیه... کسی رو که مجبور نکردن بیاد داخل یک شبکه ی اجتماعی عضو بشه و تا سایز لباس هاش رو هم داخل پروفایلش قرار بده&quot;&lt;/p&gt;
+
+&lt;p&gt;:&lt;a href=&quot;http://www.fsf.org/facebook&quot;&gt;&lt;img src=&quot;http://static.fsf.org/nosvn/dislike200.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;این اولین بر نیست که چنین اظهار نظر‌هایی‌ میبینم، تازه این خوبشه. دیدم افرادی که شروع می‌کنن به سخنرانی‌‌های پر طمطراق سرشار از به‌‌ به‌‌ و چه چه که آقا این فیس بوک عجب چیزی هستش، راحت همه چی‌ به اشتراک میذاریم، &quot;همه&quot; هستن، خیلی‌ باحاله، راه‌های دور رو نزدیک کرده و الخ .
+نمیدونم یه کم سرچ کردن، یه کم مطالعه کردن و یه کم فکر کردن چقدر می‌تونه سخت باشه . در واقع من نمیدونم اهمیت قائل شدن برای خود چقدر می‌تونه سخت باشه .
+شنیدم که خیلی‌‌ها میگن : من که یه کاربر معمولی‌ هستم، اطلاعات من به چه درد فیس بوک می‌خوره ؟ اوج خود هیچ انگاری و حرف بی‌ مورد زدن .
+هر کس بنا به شعور خودش تعریفی‌ از آزادی داره . آزادی این نیست که لخت بیایی تو خیابون ( مثال تکراری ! ) یا اینکه پاشی راحت خود کشی‌ کنی‌ و یا اینکه به این و اون فحش بدی .&lt;/p&gt;
+
+&lt;p&gt;از نظر من آزادی یعنی مختارانه و مسولانه گرفتن تصمیم و توانایی‌ پایبندی یا گسیختگی از اون .&lt;/p&gt;
+
+&lt;p&gt;با این دیدگاه، کار‌هایی‌ که فیس بوک می‌کنه، از جمله اینکه به صراحت و وقیحانه میاد میگه ما اطلاعاتتون رو در اختیار فرد سومی‌ قرار میدیم، چیزی جز از میان بردن حدود شخصی‌ و آزادی فردی نیست . برای نمونه تلاش کن تمام اطلاعاتی که تو فیس بوک داری رو پاک کنی‌ ( دی اکتیو کردن اطلاعات رو پاک نمی‌کنه، و شاید باورت نشه، حتی پاک کردن اطلاعاتت هم کاملا محفوظاتت روی فیس بوک رو پاک نمیکنه ). به طرز غیر قابل باوری تقریبا ناممکنه ( برای منی‌ که تقریبا هیچی‌ روش نداشتم یک روز طول کشید ). در حالی‌ که گوگل با ارائه گوگل داشبرد به راحتی‌ بهت اجازه میده همه اطلاعاتی‌ که داری رو پاک کنی‌ ( هرچند گوگل هم کامل نیست ). با وجود تمام زحماتی که ما برای این پدیده میکشیم (!) حتی حاضر نیست کوچکترین احترامی برای ما قائل باشه .&lt;/p&gt;
+
+&lt;p&gt;سیستم تشخص چهرهٔ که ما همگی‌ با کمک هم داریم برای فیس بوک میسازیم می‌تونه به یکی‌ از خطرناک‌ترین ابزارها بشه .
+در مورد فیس بوک یه حرف قشنگ هست که میگه : you are its product, not its customer
+با ندیده گرفتن و سهل انگاری در مورد چیزی مثل فیس بوک فقط نشون خواهیم که ما چقدر بی‌ اراده و مطیع هستیم .&lt;/p&gt;
+
+&lt;p&gt;تجربه کردم و دیدم که خیلی‌‌ها به این حرف‌ها میخندن، اما اگر ما میخوایم جزو افرادی نباشیم که سرمون رو بندازیم پایین تا هر جا دلشون می‌خواد ما رو بکشونن ( می‌خواستم بگم مثل گوسفند، دیدم شاید بد جور باشه )  ، باید برای این جور مسائل اهمیت قائل سهیم .&lt;/p&gt;
+
+&lt;p&gt;در نهایت این نوشته رو با یه سخن از ریچارد استالمن به پایان می‌برم که به نظر من سر و ته تمام سایت اجتماعی رو می‌شه از توش در آورد :
+Social networks, for lonely people, may only show them &lt;a href=&quot;http://www.guardian.co.uk/media/2010/aug/07/social-networking-friends-lonely&quot;&gt;how lonely they are&lt;/a&gt;&lt;a href=&quot;http://arashthr.files.wordpress.com/2011/09/facebook-sucks.gif&quot;&gt;&lt;img src=&quot;http://arashthr.files.wordpress.com/2011/09/facebook-sucks.gif?w=300&quot; alt=&quot;Why should I care ?&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;مراجع :
+&lt;a href=&quot;http://stallman.org/facebook.html&quot;&gt;http://stallman.org/facebook.html
+&lt;/a&gt;&lt;a href=&quot;http://www.fsf.org/facebook&quot;&gt;http://www.fsf.org/facebook&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>لابد سلام دنیا ؟</title>
+   <link href="http://fa.arashTaher.ir/%D8%B9%D9%85%D9%88%D9%85%DB%8C/2011/09/08/hello-world.html"/>
+   <updated>2011-09-08T01:59:34+04:30</updated>
+   <id>http://fa.arashTaher.ir/%D8%B9%D9%85%D9%88%D9%85%DB%8C/2011/09/08/hello-world</id>
+   <content type="html">&lt;p&gt;کاری بود که باید خیلی‌ وقت پیش می‌کردم، اما نمی‌شد. الان هم با توجه به فیلتر بودن WP شاید نتونم اون جوری که دلم می‌خواد راحت کار کنم. با این حل همون طور که همیشه (!) میگم : کاچی به از هیچی‌ .&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>

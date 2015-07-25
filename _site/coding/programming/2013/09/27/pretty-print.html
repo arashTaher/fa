@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>زیبا کردن کد با NRefactory</title>
+   <meta name="author" content="Arash Taher" />
+   <!-- <link href="http://feeds.feedburner.com/tom-preston-werner" rel="alternate" title="Tom Preston-Werner" type="application/atom+xml" /> -->
+
+   <!-- syntax highlighting CSS -->
+   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+</head>
+<body>
+
+<div class="site" dir="ltr">
+  <div class="title">
+    <a href="http://arashTaher.ir">Arash Taher</a>
+    <a href="http://fa.arashTaher.ir" class="extra">Fa</a>
+    <a href="http://en.arashTaher.ir" class="extra">En</a>
+  </div>
+  
+  <h1>زیبا کردن کد با NRefactory</h1>
+
+<div id="post">
+	<p>همانطور که در قبل ذکر آن رفت، یکی‌ از کاربرد‌های NRefactory در Reformat کردن یا اصطلاحا <a href="http://en.wikipedia.org/wiki/Prettyprint">PrintPrint</a> کردن کد است. از این قابلیت در Code Generation می‌توان بسیار سود برد.
+ما به راحتی‌ با کنار گذاشتن دغدغه مربوط به چینش کد، قطعات مورد نیاز را به هم میچسبانیم. در نهایت مثلا کدی خواهیم داشت در یک خط. حال این کد دستی‌ تولید شده را به NRefactory میدهیم و خروجی‌ با ظاهر مناسب و مورد نظر ( مثلا KRStyle ) را تحویل میگیریم.</p>
+
+<p>یک نمونه ساده از پیاده سازی چنین عملیاتی را میتوانید از <a href="http://ge.tt/6JuQk2o/v/3">اینجا</a> دانلود کنید.</p>
+
+<p>پی‌‌‌نوشت : باینری‌ها را به صورت جدا و در <a href="http://ge.tt/6JuQk2o/v/2">اینجا</a> آپلود کرده‌ام که اگر کد‌های قبلی‌ رو دانلود کردین نیازی به دانلود دوباره نداشته باشید. فقط میمونه بحث Reference دادن به اونها که دیگه بر عهد خودتون.</p>
+
+<p>اصلاحیه : نسخه قبلی‌ که نوشته بودم یه اشکالی‌ داشت؛ اینکه من اشتباها از Formatter استفاده کرده بودم. از این قابلیت بیشتر برای موارد داخل خود IDE مثل زمانی که Copy-Paste می‌کنیم یا زمانی‌ که IDE خودش برامون یک سری قسمت‌ها رو پر می‌کنه استفاده می‌شه.</p>
+
+<p>در رابطه با کاری که ما می‌خواهیم انجام بدیم، روش درست استفاده از Output visitor‌ها هستش. به این صورت که اول کد رو پارس می‌کنیم، سپس درخت رو میدیم به CSharpOutputVisitor و ... بوم !</p>
+
+</div>
+
+<div id="related">
+  <h2>Related Posts</h2>
+  <ul class="posts">
+    
+      <li><span>09 May 2014</span> &raquo; <a href="/software%20engineering/2014/05/09/tdd-is-dead.html">از شانس ما ...</a></li>
+    
+      <li><span>24 Apr 2014</span> &raquo; <a href="/fa/tools/2014/04/24/jumping-on-clouds.html">پریدن از روی ابرها</a></li>
+    
+      <li><span>03 Apr 2014</span> &raquo; <a href="/codes/fa/%D8%AA%D8%AE%D8%B5%D8%B5%DB%8C/2014/04/03/starry-night.html">شب پر ستاره</a></li>
+    
+  </ul>
+</div>
+
+  
+  <div class="footer">
+    <div class="contact">
+      <p>
+        Arash Taher<br />
+      </p>
+    </div>
+    <div class="contact">
+      <p>
+        <a href="http://github.com/arashTaher/">Github</a><br />
+        <a href="http://twitter.com/arash_taher/">Twitter</a><br />
+        <a href="http://plus.goolge.com/+arashTaher">Google plus</a><br />
+      </p>
+    </div>
+    <div class="rss">
+		<!-- <a href="http://feeds.feedburner.com/tom-preston-werner"> <img src="/images/rss.png" alt="Subscribe to RSS Feed" /> </a> -->
+    </div>
+  </div>
+</div>
+
+	<a href="https://github.com/arashTaher"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/c6286ade715e9bea433b4705870de482a654f78a/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f77686974655f6666666666662e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_white_ffffff.png"></a>
+</body>
+</html>
