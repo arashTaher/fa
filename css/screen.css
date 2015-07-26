@@ -8,12 +8,12 @@
 
 @font-face {
 	font-family: 'nazli';
-	src: url('_fonts/nazli.ttf') format('truetype');
+	src: url('fonts/nazli.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: 'nazlib';
-	src: url('_fonts/nazlib.ttf') format('truetype');
+	src: url('fonts/nazlib.ttf') format('truetype');
 	font-weight: bold;
 }
 
