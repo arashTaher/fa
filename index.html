@@ -7,7 +7,7 @@ title: Arash's Fablog
   <h1>آنچه گذشت ...</h1>
   <ul class="posts">
     {% for post in site.posts %}
-	<li><span>{{ post.date | jdate: "%b %Y" }}</span> &raquo; <a href="{{ post.url }}"><b>{{ post.title }}</b></a></li>
+	<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}"><b>{{ post.title }}</b></a></li>
 	{{ post.excerpt }}
     {% endfor %}
   </ul>
